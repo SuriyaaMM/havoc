@@ -88,10 +88,10 @@ The training results clearly show the impact of each architectural decision.
 
 | Model Version | Dataset Used | Architecture | Key Change | Validation Accuracy |
 | :--- | :--- | :--- | :--- | :--- |
-| `ClassifierV1` | `OCRImageDatasetV1` | MLP (Linear) | Naive attempt on flattened images. | \10.13% (Failed) |
-| `ClassifierV2` | `OCRImageDatasetV2` | CNN | **Switched to CNN**; standardized image size. | **\85.60** |
-| `ClassifierV4` | `OCRImageDatasetV4` | Deep CNN + Aug | Added augmentation; **No `BatchNorm`**. | \10.00% (Failed) |
-| `ClassifierV5` | `OCRImageDatasetV4` | CNN + BN + Dropout | **Added `BatchNorm`** & fixed `Dropout` order. | **\92.3%+ (Best)** |
+| `ClassifierV1` | `OCRImageDatasetV1` | MLP (Linear) | Naive attempt on flattened images. | 10.13% (Failed) |
+| `ClassifierV2` | `OCRImageDatasetV2` | CNN | **Switched to CNN**; standardized image size. | **85.60** |
+| `ClassifierV4` | `OCRImageDatasetV4` | Deep CNN + Aug | Added augmentation; **No `BatchNorm`**. | 10.00% (Failed) |
+| `ClassifierV5` | `OCRImageDatasetV4` | CNN + BN + Dropout | **Added `BatchNorm`** & fixed `Dropout` order. | **92.3%+ (Best)** |
 
 -----
 
