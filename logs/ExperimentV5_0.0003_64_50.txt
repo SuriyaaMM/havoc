@@ -1,0 +1,101 @@
+pytorch version: 2.9.0+cu128
+numpy version: 2.3.4
+pandas version: 2.3.3
+matplotlib version: 3.10.7
+pillow version: 12.0.0
+--------------------------------------------------
+CUDA Is Available : True
+--------------------------------------------------
+Original size: 10000, Filtered size: 9040
+ClassifierV5(
+  (ff): Sequential(
+    (0): Conv2d(1, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (2): ReLU()
+    (3): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (4): Conv2d(32, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (5): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (6): ReLU()
+    (7): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (8): Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (9): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (10): ReLU()
+    (11): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (12): Flatten(start_dim=1, end_dim=-1)
+    (13): Linear(in_features=16384, out_features=4096, bias=True)
+    (14): BatchNorm1d(4096, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (15): ReLU()
+    (16): Linear(in_features=4096, out_features=2048, bias=True)
+    (17): BatchNorm1d(2048, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (18): ReLU()
+    (19): Dropout(p=0.5, inplace=False)
+    (20): Linear(in_features=2048, out_features=1024, bias=True)
+    (21): BatchNorm1d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (22): ReLU()
+    (23): Dropout(p=0.5, inplace=False)
+    (24): Linear(in_features=1024, out_features=120, bias=True)
+  )
+)
+--------------------------------------------------
+starting training!
+--------------------------------------------------
+Batch Size: 64
+Learning Rate: 0.0003
+Epochs: 50
+Split : [0.8, 0.2]
+--------------------------------------------------
+making model registry at /home/suriyaa/dev/havoc/model_registry
+making onnx registry at /home/suriyaa/dev/havoc/onnx_registry
+--------------------------------------------------
+epoch 1 started:  /home/suriyaa/dev/havoc/ExperimentV5.py:162: DeprecationWarning: You are using the legacy TorchScript-based ONNX export. Starting in PyTorch 2.9, the new torch.export-based ONNX exporter will be the default. To switch now, set dynamo=True in torch.onnx.export. This new exporter supports features like exporting LLMs with DynamicCache. We encourage you to try it and share feedback to help improve the experience. Learn more about the new export logic: https://pytorch.org/docs/stable/onnx_dynamo.html. For exporting control flow: https://pytorch.org/tutorials/beginner/onnx/export_control_flow_model_to_onnx_tutorial.html.
+  torch.onnx.export(
+model & onnx files are saved at registry |  loss = 270.8840 | val_loss = 2.3081 | val_accuracy = 10.30%
+epoch 2 started:  model & onnx files are saved at registry |  loss = 264.4110 | val_loss = 2.3035 | val_accuracy = 10.37%
+epoch 3 started:  model & onnx files are saved at registry |  loss = 261.8759 | val_loss = 2.2986 | val_accuracy = 10.67%
+epoch 4 started:  model & onnx files are saved at registry |  loss = 259.9379 | val_loss = 2.2640 | val_accuracy = 14.35%
+epoch 5 started:  model & onnx files are saved at registry |  loss = 250.7518 | val_loss = 2.1280 | val_accuracy = 20.94%
+epoch 6 started:  model & onnx files are saved at registry |  loss = 229.4014 | val_loss = 1.8626 | val_accuracy = 31.25%
+epoch 7 started:  model & onnx files are saved at registry |  loss = 202.3801 | val_loss = 1.6656 | val_accuracy = 40.20%
+epoch 8 started:  model & onnx files are saved at registry |  loss = 179.3639 | val_loss = 1.4520 | val_accuracy = 48.50%
+epoch 9 started:  model & onnx files are saved at registry |  loss = 162.1014 | val_loss = 1.3365 | val_accuracy = 54.15%
+epoch 10 started:  model & onnx files are saved at registry |  loss = 146.9352 | val_loss = 1.1968 | val_accuracy = 58.78%
+epoch 11 started:  model & onnx files are saved at registry |  loss = 134.4256 | val_loss = 1.0539 | val_accuracy = 66.03%
+epoch 12 started:  model & onnx files are saved at registry |  loss = 123.2006 | val_loss = 1.0006 | val_accuracy = 67.62%
+epoch 13 started:  model & onnx files are saved at registry |  loss = 112.9858 | val_loss = 0.9008 | val_accuracy = 72.90%
+epoch 14 started:  model & onnx files are saved at registry |  loss = 103.6455 | val_loss = 0.8288 | val_accuracy = 75.11%
+epoch 15 started:  model & onnx files are saved at registry |  loss = 97.1495 | val_loss = 0.7511 | val_accuracy = 77.41%
+epoch 16 started:  model & onnx files are saved at registry |  loss = 90.4968 | val_loss = 0.6829 | val_accuracy = 80.52%
+epoch 17 started:  model & onnx files are saved at registry |  loss = 85.1298 | val_loss = 0.6301 | val_accuracy = 82.27%
+epoch 18 started:  model & onnx files are saved at registry |  loss = 79.9424 | val_loss = 0.5799 | val_accuracy = 83.89%
+epoch 19 started:  model & onnx files are saved at registry |  loss = 75.8199 | val_loss = 0.5775 | val_accuracy = 84.05%
+epoch 20 started:  model & onnx files are saved at registry |  loss = 70.9115 | val_loss = 0.5260 | val_accuracy = 84.82%
+epoch 21 started:  loss = 68.4737 | val_loss = 0.5481 | val_accuracy = 82.93%
+epoch 22 started:  model & onnx files are saved at registry |  loss = 64.5238 | val_loss = 0.4665 | val_accuracy = 86.85%
+epoch 23 started:  loss = 61.7353 | val_loss = 0.4701 | val_accuracy = 86.50%
+epoch 24 started:  model & onnx files are saved at registry |  loss = 59.8142 | val_loss = 0.4287 | val_accuracy = 87.81%
+epoch 25 started:  loss = 57.6392 | val_loss = 0.4302 | val_accuracy = 87.82%
+epoch 26 started:  model & onnx files are saved at registry |  loss = 55.0573 | val_loss = 0.3724 | val_accuracy = 90.12%
+epoch 27 started:  model & onnx files are saved at registry |  loss = 53.4717 | val_loss = 0.3584 | val_accuracy = 90.34%
+epoch 28 started:  loss = 51.4983 | val_loss = 0.3470 | val_accuracy = 90.33%
+epoch 29 started:  loss = 49.3128 | val_loss = 0.3500 | val_accuracy = 90.01%
+epoch 30 started:  model & onnx files are saved at registry |  loss = 48.2082 | val_loss = 0.3338 | val_accuracy = 90.36%
+epoch 31 started:  model & onnx files are saved at registry |  loss = 46.9797 | val_loss = 0.3305 | val_accuracy = 90.69%
+epoch 32 started:  model & onnx files are saved at registry |  loss = 45.1960 | val_loss = 0.3186 | val_accuracy = 90.77%
+epoch 33 started:  model & onnx files are saved at registry |  loss = 44.2690 | val_loss = 0.2897 | val_accuracy = 92.03%
+epoch 34 started:  model & onnx files are saved at registry |  loss = 42.7558 | val_loss = 0.2776 | val_accuracy = 92.32%
+epoch 35 started:  model & onnx files are saved at registry |  loss = 42.0056 | val_loss = 0.2736 | val_accuracy = 92.48%
+epoch 36 started:  loss = 40.7644 | val_loss = 0.2643 | val_accuracy = 92.43%
+epoch 37 started:  loss = 40.1304 | val_loss = 0.2656 | val_accuracy = 92.39%
+epoch 38 started:  model & onnx files are saved at registry |  loss = 38.9179 | val_loss = 0.2544 | val_accuracy = 92.68%
+epoch 39 started:  model & onnx files are saved at registry |  loss = 37.6478 | val_loss = 0.2398 | val_accuracy = 93.28%
+epoch 40 started:  model & onnx files are saved at registry |  loss = 36.8518 | val_loss = 0.2370 | val_accuracy = 93.33%
+epoch 41 started:  model & onnx files are saved at registry |  loss = 36.7602 | val_loss = 0.2304 | val_accuracy = 93.51%
+epoch 42 started:  loss = 35.7130 | val_loss = 0.2486 | val_accuracy = 93.06%
+epoch 43 started:  loss = 35.4806 | val_loss = 0.2422 | val_accuracy = 92.60%
+epoch 44 started:  model & onnx files are saved at registry |  loss = 34.6428 | val_loss = 0.2295 | val_accuracy = 93.26%
+epoch 45 started:  model & onnx files are saved at registry |  loss = 34.4439 | val_loss = 0.2019 | val_accuracy = 94.21%
+epoch 46 started:  loss = 33.4192 | val_loss = 0.2213 | val_accuracy = 93.71%
+epoch 47 started:  model & onnx files are saved at registry |  loss = 32.6582 | val_loss = 0.2004 | val_accuracy = 94.35%
+epoch 48 started:  loss = 31.9858 | val_loss = 0.2028 | val_accuracy = 93.88%
+epoch 49 started:  loss = 31.7041 | val_loss = 0.2041 | val_accuracy = 93.72%
+epoch 50 started:  loss = 31.0267 | val_loss = 0.2049 | val_accuracy = 94.15%
