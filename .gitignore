@@ -4,5 +4,5 @@ roll_number_dataset2/
 
 __pycache__/
 
-model_registry/
-onnx_registry/
+registry/
+cfg.json

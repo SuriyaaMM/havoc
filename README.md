@@ -1,100 +1,75 @@
-# OCR Showdown (12 Digit Digit Recognition)
+# Havoc OCR Showdown
 
-### Project Objective
+This project is an experiment to find the most effective model architecture for a 12-digit number recognition (OCR) task. We explore three different approaches, evolving from a simple linear model to a more complex Convolutional Recurrent Neural Network (CRNN), demonstrating why specialized architectures are critical for sequence-based problems.
+**[Kaggle Link](https://www.kaggle.com/competitions/ocr-showdown-decode-12-digit-roll-numbers)**
 
-The objective of this project is to design, implement, and iteratively improve a deep learning model for Optical Character Recognition (OCR). The specific task is to correctly identify a 12-digit numerical string from a given dataset of images.
+## Technical Approach
 
-This document details the step-by-step progression, starting from a naive baseline model and culminating in a robust, regularized Convolutional Neural Network (CNN) that successfully learns from augmented data.
+The experiment was conducted by building and training three distinct models on the same dataset.
 
------
+### 1 `MCLv1` (Baseline: Simple Linear Model)
 
-### Installation and Setup
+This model serves as our baseline. It's a simple Multi-Layer Perceptron (MLP) that takes the flattened image as input.
 
-- Pre-requisite : [uv](https://docs.astral.sh/uv/getting-started/installation/)
-- Dataset: [Kaggle](https://www.kaggle.com/competitions/ocr-showdown-decode-12-digit-roll-numbers/data)
+  * **Architecture:** `havoc/registry/modelRegistry/MCLv1`
+  * **Result:** This model **failed to learn**. By flattening the image, it destroys all spatial and sequential information. It cannot tell the 1st digit from the 12th. As seen in the logs, its accuracy plateaus at **\~10%**.
 
-```bash
-git clone https://github.com/SuriyaaMM/OCR_Showdown
-cd OCR_Showdown
+### 2 `MCCv1` (Convolutional Model)
 
-# Synchronize the Packages
-uv sync
+This model introduces Convolutional Neural Networks (CNNs) to extract meaningful spatial features before classification.
 
-# Activate the Virtual Environment
-source .venv/bin/activate
-```
------
+  * **Architecture:** `havoc/registry/modelRegistry/MCCv1`
+  * **Result:** This model **struggles** but eventually learns. After being stuck at \~10% for over 20-30 epochs, it starts to "memorize" the scrambled feature patterns, peaking at **\~78.08% accuracy**.
 
-### Code Structure
+### 3 `MCCLv1` (CNN + LSTM)
 
-The project is organized into several key files:
+This specialized architecture, commonly known as a CRNN (Convolutional Recurrent Neural Network).
 
-  * `ExperimentV5.py`: The main script for training and evaluating the final `ClassifierV5` model. It contains the complete training loop, validation loop, and model saving logic.
-  * `ModelRegistry.py`: Contains all PyTorch model definitions:
-      * `ClassifierV1`: Naive MLP (Baseline).
-      * `ClassifierV2`: Baseline CNN.
-      * `ClassifierV4`: Deep CNN (unstable).
-      * `ClassifierV5`: Final robust CNN with `BatchNorm`.
-  * `DatasetRegistry.py`: Contains all `torch.utils.data.Dataset` definitions:
-      * `OCRImageDatasetV1`: For the MLP (flattens images).
-      * `OCRImageDatasetV2`: For the baseline CNN (resizes images).
-      * `OCRImageDatasetV4`: Adds `RandomAffine` and `ColorJitter` augmentations.
-  * `requirements.txt`: Lists all Python dependencies for `uv sync`.
-  * `model_registry/`: Output directory where the best `.pth` (PyTorch model weights) are saved.
-  * `onnx_registry/`: Output directory where the best models are exported to the `.onnx` format for inference.
------
-
-### The Iterative Progression
-
-This project's development followed four distinct stages, demonstrating a clear path of iterative problem-solving.
-
-#### Stage 1: The Naive MLP (V1)
-
-  * **Model:** `ClassifierV1`
-  * **Dataset:** `OCRImageDatasetV1`
-  * **Method:** The first baseline was a simple Multi-Layer Perceptron (MLP). The dataset flattens each image (`.ravel()`) into a 1D vector and feeds it to `nn.Linear` layers.
-  * **Result:** **Failure**. Accuracy was stuck at \~10% (random guessing). Flattening the image destroys all 2D spatial information, making it impossible for the model to learn the "shapes" of the digits.
-
-#### Stage 2: The CNN Baseline (V2)
-
-  * **Model:** `ClassifierV2`
-  * **Dataset:** `OCRImageDatasetV2`
-  * **Method:** Realizing that spatial data is key, the architecture was switched to a **Convolutional Neural Network (CNN)**. The dataset was modified to resize all images to a uniform `(32, 256)` and feed them as 2D tensors to the model.
-  * **Result:** **Success**. This model quickly broke the 10% barrier and achieved high accuracy (\~87%). This confirmed the CNN was the correct architecture.
-
-#### Stage 3: The Unstable Deep Model (V4)
-
-  * **Model:** `ClassifierV4`
-  * **Dataset:** `OCRImageDatasetV4`
-  * **Method:** To improve on the V2 baseline, two changes were made:
-    1.  **Data Augmentation:** `RandomAffine` and `ColorJitter` were added to the dataset to create more varied training data and prevent overfitting.
-    2.  **Deeper Network:** The fully-connected head of the classifier was made much deeper.
-  * **Result:** **Failure**. The model's accuracy collapsed back to \~10%. The combination of a very deep network and "harder" augmented data led to **extreme training instability**. The gradients likely vanished or exploded, preventing the model from learning.
-
-#### Stage 4: The Robust & Regularized Model (V5)
-
-  * **Model:** `ClassifierV5`
-  * **Dataset:** `OCRImageDatasetV4` (The augmented one)
-  * **Method:** This model was designed to fix the instability of V4.
-    1.  **`nn.BatchNorm`**: `BatchNorm2d` and `BatchNorm1d` were added after *every* `Conv` and `Linear` layer. This normalized the activations, stabilized the gradients, and allowed the deep network to converge.
-    2.  **`Dropout` Order**: `Dropout` layers were confirmed to be placed *after* `ReLU` activations to provide regularization without killing the training signal.
-  * **Result:** **Success**. This model successfully trains on the augmented data, achieving the highest accuracy (\~90%+) and demonstrating the best generalization.
+  * **Architecture:** `havoc/registry/modelRegistry/MCCLv1`
+  * **Result:** This model is **highly effective**. It starts learning almost immediately and achieves a peak validation accuracy of **99.40%**.
 
 -----
 
-### Performance Summary
+## Results Summary
 
-The training results clearly show the impact of each architectural decision.
-
-| Model Version | Dataset Used | Architecture | Key Change | Validation Accuracy |
-| :--- | :--- | :--- | :--- | :--- |
-| `ClassifierV1` | `OCRImageDatasetV1` | MLP (Linear) | Naive attempt on flattened images. | 10.13% (Failed) |
-| `ClassifierV2` | `OCRImageDatasetV2` | CNN | **Switched to CNN**; standardized image size. | **85.60** |
-| `ClassifierV4` | `OCRImageDatasetV4` | Deep CNN + Aug | Added augmentation; **No `BatchNorm`**. | 10.00% (Failed) |
-| `ClassifierV5` | `OCRImageDatasetV4` | CNN + BN + Dropout | **Added `BatchNorm`** & fixed `Dropout` order. | **92.3%+ (Best)** |
+| Model | Architecture | Peak Validation Accuracy |
+| :--- | :--- | :--- |
+| `MCLv1` | Simple MLP | \~10.64% |
+| `MCCv1` | CNN + MLP | 78.08% |
+| `MCCLv1` | **CRNN (CNN + LSTM)** | **99.40%** |
 
 -----
 
-### Conclusion
+## Installation & Reproduction
 
-This project successfully demonstrates the iterative process of model development. The key takeaway is that while a correct baseline architecture (CNN) is essential, **stabilization techniques like `BatchNorm` are critical** for enabling deep networks to learn from complex, augmented data. The final `ClassifierV5` model represents a stable, robust, and well-regularized solution to the OCR task.
+This project uses `uv` for fast Python package management.
+
+### Prerequisites
+
+- You must have `uv` installed. 
+
+
+### Instructions
+
+Follow these steps to create the virtual environment and reproduce the results.
+
+1.  **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/SuriyaaMM/havoc
+    cd havoc
+    ```
+
+2.  **Create and sync the virtual environment:**
+
+    ```bash
+    uv venv
+    uv sync
+    ```
+
+3.  **Activate the environment and run an experiment:**
+
+    ```bash
+    source .venv/bin/activate
+    uv run -m havoc.experiment.Ev3
+    ```

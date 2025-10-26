@@ -1,0 +1,7 @@
+{
+    "LOG_DIR" : "",
+    "MODEL_REGISTRY" : "",
+    "ONNX_REGISTRY" : "",
+    "LABELS_PATH" : "",
+    "IMAGE_FOLDER_ROOT" : ""
+}

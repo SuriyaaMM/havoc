@@ -1,0 +1,2142 @@
+2025-10-26 12:06:59,400 - INFO - --------------------------------------------------
+2025-10-26 12:06:59,400 - INFO - pytorch version: 2.9.0+cu128
+2025-10-26 12:06:59,400 - INFO - numpy version: 2.3.4
+2025-10-26 12:06:59,400 - INFO - pandas version: 2.3.3
+2025-10-26 12:06:59,400 - INFO - matplotlib version: 3.10.7
+2025-10-26 12:06:59,400 - INFO - pillow version: 12.0.0
+2025-10-26 12:06:59,400 - INFO - --------------------------------------------------
+2025-10-26 12:06:59,428 - INFO - CUDA Is Available : True
+2025-10-26 12:06:59,428 - INFO - --------------------------------------------------
+2025-10-26 12:06:59,438 - INFO - Original size: 10000, Filtered size: 9040
+2025-10-26 12:06:59,447 - INFO - Original size: 10000, Filtered size: 9040
+2025-10-26 12:06:59,456 - INFO - Original size: 10000, Filtered size: 9040
+2025-10-26 12:06:59,840 - INFO - --------------------------------------------------
+2025-10-26 12:06:59,840 - INFO - epoch 1 started
+2025-10-26 12:08:39,618 - INFO - --------------------------------------------------
+2025-10-26 12:08:39,618 - INFO - pytorch version: 2.9.0+cu128
+2025-10-26 12:08:39,618 - INFO - numpy version: 2.3.4
+2025-10-26 12:08:39,618 - INFO - pandas version: 2.3.3
+2025-10-26 12:08:39,618 - INFO - matplotlib version: 3.10.7
+2025-10-26 12:08:39,618 - INFO - pillow version: 12.0.0
+2025-10-26 12:08:39,618 - INFO - --------------------------------------------------
+2025-10-26 12:08:41,587 - INFO - CUDA Is Available : True
+2025-10-26 12:08:41,587 - INFO - --------------------------------------------------
+2025-10-26 12:09:24,787 - INFO - --------------------------------------------------
+2025-10-26 12:09:24,787 - INFO - pytorch version: 2.9.0+cu128
+2025-10-26 12:09:24,787 - INFO - numpy version: 2.3.4
+2025-10-26 12:09:24,787 - INFO - pandas version: 2.3.3
+2025-10-26 12:09:24,787 - INFO - matplotlib version: 3.10.7
+2025-10-26 12:09:24,787 - INFO - pillow version: 12.0.0
+2025-10-26 12:09:24,787 - INFO - --------------------------------------------------
+2025-10-26 12:09:26,750 - INFO - CUDA Is Available : True
+2025-10-26 12:09:26,750 - INFO - --------------------------------------------------
+2025-10-26 12:09:26,938 - INFO - --------------------------------------------------
+2025-10-26 12:09:26,938 - INFO - epoch 1 started
+2025-10-26 12:09:32,156 - WARNING - The model version conversion is not supported by the onnxscript version converter and fallback is enabled. The model will be converted using the onnx C API (target version: 24).
+2025-10-26 12:09:32,163 - INFO - Removed 1 unused nodes
+2025-10-26 12:09:32,163 - INFO - No unused functions to remove
+2025-10-26 12:09:32,163 - INFO - Skipping constant folding for node 'node_Shape_0' because it is graph input to preserve graph signature
+2025-10-26 12:09:32,163 - INFO - Skipping constant folding for node 'node_conv2d' because it is graph input to preserve graph signature
+2025-10-26 12:09:32,170 - INFO - Removed 6 unused nodes
+2025-10-26 12:09:32,170 - INFO - No unused functions to remove
+2025-10-26 12:09:32,170 - INFO - Skipping constant folding for node 'node_Shape_0' because it is graph input to preserve graph signature
+2025-10-26 12:09:32,170 - INFO - Skipping constant folding for node 'node_conv2d' because it is graph input to preserve graph signature
+2025-10-26 12:09:32,173 - INFO - Removed 1 unused nodes
+2025-10-26 12:09:32,174 - INFO - No unused functions to remove
+2025-10-26 12:09:32,319 - INFO - model & onnx files are saved at registry
+2025-10-26 12:09:32,319 - INFO - loss = 260.2161 | val_loss = 2.3016 | val_accuracy = 10.05%
+2025-10-26 12:09:32,319 - INFO - --------------------------------------------------
+2025-10-26 12:09:32,319 - INFO - epoch 2 started
+2025-10-26 12:09:36,048 - INFO - loss = 259.9397 | val_loss = 2.3001 | val_accuracy = 9.89%
+2025-10-26 12:09:36,048 - INFO - --------------------------------------------------
+2025-10-26 12:09:36,048 - INFO - epoch 3 started
+2025-10-26 12:09:40,302 - WARNING - The model version conversion is not supported by the onnxscript version converter and fallback is enabled. The model will be converted using the onnx C API (target version: 24).
+2025-10-26 12:09:40,307 - INFO - Removed 1 unused nodes
+2025-10-26 12:09:40,307 - INFO - No unused functions to remove
+2025-10-26 12:09:40,308 - INFO - Skipping constant folding for node 'node_Shape_0' because it is graph input to preserve graph signature
+2025-10-26 12:09:40,308 - INFO - Skipping constant folding for node 'node_conv2d' because it is graph input to preserve graph signature
+2025-10-26 12:09:40,312 - INFO - Removed 6 unused nodes
+2025-10-26 12:09:40,312 - INFO - No unused functions to remove
+2025-10-26 12:09:40,312 - INFO - Skipping constant folding for node 'node_Shape_0' because it is graph input to preserve graph signature
+2025-10-26 12:09:40,312 - INFO - Skipping constant folding for node 'node_conv2d' because it is graph input to preserve graph signature
+2025-10-26 12:09:40,315 - INFO - Removed 1 unused nodes
+2025-10-26 12:09:40,316 - INFO - No unused functions to remove
+2025-10-26 12:09:40,438 - INFO - model & onnx files are saved at registry
+2025-10-26 12:09:40,438 - INFO - loss = 259.7198 | val_loss = 2.2991 | val_accuracy = 9.97%
+2025-10-26 12:09:40,438 - INFO - --------------------------------------------------
+2025-10-26 12:09:40,438 - INFO - epoch 4 started
+2025-10-26 12:09:44,143 - INFO - loss = 259.9007 | val_loss = 2.3015 | val_accuracy = 9.88%
+2025-10-26 12:09:44,143 - INFO - --------------------------------------------------
+2025-10-26 12:09:44,143 - INFO - epoch 5 started
+2025-10-26 12:09:48,302 - WARNING - The model version conversion is not supported by the onnxscript version converter and fallback is enabled. The model will be converted using the onnx C API (target version: 24).
+2025-10-26 12:09:48,307 - INFO - Removed 1 unused nodes
+2025-10-26 12:09:48,307 - INFO - No unused functions to remove
+2025-10-26 12:09:48,308 - INFO - Skipping constant folding for node 'node_Shape_0' because it is graph input to preserve graph signature
+2025-10-26 12:09:48,308 - INFO - Skipping constant folding for node 'node_conv2d' because it is graph input to preserve graph signature
+2025-10-26 12:09:48,312 - INFO - Removed 6 unused nodes
+2025-10-26 12:09:48,312 - INFO - No unused functions to remove
+2025-10-26 12:09:48,312 - INFO - Skipping constant folding for node 'node_Shape_0' because it is graph input to preserve graph signature
+2025-10-26 12:09:48,312 - INFO - Skipping constant folding for node 'node_conv2d' because it is graph input to preserve graph signature
+2025-10-26 12:09:48,315 - INFO - Removed 1 unused nodes
+2025-10-26 12:09:48,315 - INFO - No unused functions to remove
+2025-10-26 12:09:48,434 - INFO - model & onnx files are saved at registry
+2025-10-26 12:09:48,434 - INFO - loss = 259.6006 | val_loss = 2.2979 | val_accuracy = 10.15%
+2025-10-26 12:09:48,434 - INFO - --------------------------------------------------
+2025-10-26 12:09:48,434 - INFO - epoch 6 started
+2025-10-26 12:09:52,124 - INFO - loss = 259.6576 | val_loss = 2.3006 | val_accuracy = 9.76%
+2025-10-26 12:09:52,124 - INFO - --------------------------------------------------
+2025-10-26 12:09:52,124 - INFO - epoch 7 started
+2025-10-26 12:09:56,419 - WARNING - The model version conversion is not supported by the onnxscript version converter and fallback is enabled. The model will be converted using the onnx C API (target version: 24).
+2025-10-26 12:09:56,424 - INFO - Removed 1 unused nodes
+2025-10-26 12:09:56,424 - INFO - No unused functions to remove
+2025-10-26 12:09:56,424 - INFO - Skipping constant folding for node 'node_Shape_0' because it is graph input to preserve graph signature
+2025-10-26 12:09:56,425 - INFO - Skipping constant folding for node 'node_conv2d' because it is graph input to preserve graph signature
+2025-10-26 12:09:56,429 - INFO - Removed 6 unused nodes
+2025-10-26 12:09:56,429 - INFO - No unused functions to remove
+2025-10-26 12:09:56,429 - INFO - Skipping constant folding for node 'node_Shape_0' because it is graph input to preserve graph signature
+2025-10-26 12:09:56,429 - INFO - Skipping constant folding for node 'node_conv2d' because it is graph input to preserve graph signature
+2025-10-26 12:09:56,432 - INFO - Removed 1 unused nodes
+2025-10-26 12:09:56,432 - INFO - No unused functions to remove
+2025-10-26 12:09:56,551 - INFO - model & onnx files are saved at registry
+2025-10-26 12:09:56,552 - INFO - loss = 259.5446 | val_loss = 2.2978 | val_accuracy = 10.08%
+2025-10-26 12:09:56,552 - INFO - --------------------------------------------------
+2025-10-26 12:09:56,552 - INFO - epoch 8 started
+2025-10-26 12:10:00,228 - INFO - loss = 259.6230 | val_loss = 2.2992 | val_accuracy = 10.04%
+2025-10-26 12:10:00,228 - INFO - --------------------------------------------------
+2025-10-26 12:10:00,228 - INFO - epoch 9 started
+2025-10-26 12:10:04,552 - WARNING - The model version conversion is not supported by the onnxscript version converter and fallback is enabled. The model will be converted using the onnx C API (target version: 24).
+2025-10-26 12:10:04,557 - INFO - Removed 1 unused nodes
+2025-10-26 12:10:04,557 - INFO - No unused functions to remove
+2025-10-26 12:10:04,557 - INFO - Skipping constant folding for node 'node_Shape_0' because it is graph input to preserve graph signature
+2025-10-26 12:10:04,557 - INFO - Skipping constant folding for node 'node_conv2d' because it is graph input to preserve graph signature
+2025-10-26 12:10:04,561 - INFO - Removed 6 unused nodes
+2025-10-26 12:10:04,561 - INFO - No unused functions to remove
+2025-10-26 12:10:04,562 - INFO - Skipping constant folding for node 'node_Shape_0' because it is graph input to preserve graph signature
+2025-10-26 12:10:04,562 - INFO - Skipping constant folding for node 'node_conv2d' because it is graph input to preserve graph signature
+2025-10-26 12:10:04,565 - INFO - Removed 1 unused nodes
+2025-10-26 12:10:04,565 - INFO - No unused functions to remove
+2025-10-26 12:10:04,693 - INFO - model & onnx files are saved at registry
+2025-10-26 12:10:04,693 - INFO - loss = 259.5105 | val_loss = 2.2969 | val_accuracy = 10.18%
+2025-10-26 12:10:04,693 - INFO - --------------------------------------------------
+2025-10-26 12:10:04,693 - INFO - epoch 10 started
+2025-10-26 12:10:08,382 - INFO - loss = 259.4885 | val_loss = 2.2990 | val_accuracy = 10.08%
+2025-10-26 12:10:08,382 - INFO - --------------------------------------------------
+2025-10-26 12:10:08,382 - INFO - epoch 11 started
+2025-10-26 12:10:12,068 - INFO - loss = 259.4601 | val_loss = 2.2973 | val_accuracy = 10.02%
+2025-10-26 12:10:12,069 - INFO - --------------------------------------------------
+2025-10-26 12:10:12,069 - INFO - epoch 12 started
+2025-10-26 12:10:15,770 - INFO - loss = 259.4941 | val_loss = 2.2977 | val_accuracy = 10.32%
+2025-10-26 12:10:15,770 - INFO - --------------------------------------------------
+2025-10-26 12:10:15,770 - INFO - epoch 13 started
+2025-10-26 12:10:19,476 - INFO - loss = 259.4186 | val_loss = 2.2968 | val_accuracy = 9.89%
+2025-10-26 12:10:19,476 - INFO - --------------------------------------------------
+2025-10-26 12:10:19,476 - INFO - epoch 14 started
+2025-10-26 12:10:23,166 - INFO - loss = 259.4214 | val_loss = 2.2972 | val_accuracy = 10.24%
+2025-10-26 12:10:23,166 - INFO - --------------------------------------------------
+2025-10-26 12:10:23,166 - INFO - epoch 15 started
+2025-10-26 12:10:26,876 - INFO - loss = 259.3894 | val_loss = 2.2971 | val_accuracy = 9.81%
+2025-10-26 12:10:26,876 - INFO - --------------------------------------------------
+2025-10-26 12:10:26,876 - INFO - epoch 16 started
+2025-10-26 12:10:31,173 - WARNING - The model version conversion is not supported by the onnxscript version converter and fallback is enabled. The model will be converted using the onnx C API (target version: 24).
+2025-10-26 12:10:31,178 - INFO - Removed 1 unused nodes
+2025-10-26 12:10:31,178 - INFO - No unused functions to remove
+2025-10-26 12:10:31,179 - INFO - Skipping constant folding for node 'node_Shape_0' because it is graph input to preserve graph signature
+2025-10-26 12:10:31,179 - INFO - Skipping constant folding for node 'node_conv2d' because it is graph input to preserve graph signature
+2025-10-26 12:10:31,183 - INFO - Removed 6 unused nodes
+2025-10-26 12:10:31,183 - INFO - No unused functions to remove
+2025-10-26 12:10:31,183 - INFO - Skipping constant folding for node 'node_Shape_0' because it is graph input to preserve graph signature
+2025-10-26 12:10:31,183 - INFO - Skipping constant folding for node 'node_conv2d' because it is graph input to preserve graph signature
+2025-10-26 12:10:31,186 - INFO - Removed 1 unused nodes
+2025-10-26 12:10:31,186 - INFO - No unused functions to remove
+2025-10-26 12:10:31,341 - INFO - model & onnx files are saved at registry
+2025-10-26 12:10:31,341 - INFO - loss = 259.4109 | val_loss = 2.2967 | val_accuracy = 10.12%
+2025-10-26 12:10:31,341 - INFO - --------------------------------------------------
+2025-10-26 12:10:31,341 - INFO - epoch 17 started
+2025-10-26 12:10:35,017 - INFO - loss = 259.3617 | val_loss = 2.2967 | val_accuracy = 9.79%
+2025-10-26 12:10:35,017 - INFO - --------------------------------------------------
+2025-10-26 12:10:35,018 - INFO - epoch 18 started
+2025-10-26 12:10:39,202 - WARNING - The model version conversion is not supported by the onnxscript version converter and fallback is enabled. The model will be converted using the onnx C API (target version: 24).
+2025-10-26 12:10:39,207 - INFO - Removed 1 unused nodes
+2025-10-26 12:10:39,207 - INFO - No unused functions to remove
+2025-10-26 12:10:39,207 - INFO - Skipping constant folding for node 'node_Shape_0' because it is graph input to preserve graph signature
+2025-10-26 12:10:39,208 - INFO - Skipping constant folding for node 'node_conv2d' because it is graph input to preserve graph signature
+2025-10-26 12:10:39,212 - INFO - Removed 6 unused nodes
+2025-10-26 12:10:39,212 - INFO - No unused functions to remove
+2025-10-26 12:10:39,212 - INFO - Skipping constant folding for node 'node_Shape_0' because it is graph input to preserve graph signature
+2025-10-26 12:10:39,212 - INFO - Skipping constant folding for node 'node_conv2d' because it is graph input to preserve graph signature
+2025-10-26 12:10:39,215 - INFO - Removed 1 unused nodes
+2025-10-26 12:10:39,215 - INFO - No unused functions to remove
+2025-10-26 12:10:39,348 - INFO - model & onnx files are saved at registry
+2025-10-26 12:10:39,348 - INFO - loss = 259.3880 | val_loss = 2.2965 | val_accuracy = 10.19%
+2025-10-26 12:10:39,348 - INFO - --------------------------------------------------
+2025-10-26 12:10:39,348 - INFO - epoch 19 started
+2025-10-26 12:10:43,027 - INFO - loss = 259.3429 | val_loss = 2.2965 | val_accuracy = 9.93%
+2025-10-26 12:10:43,027 - INFO - --------------------------------------------------
+2025-10-26 12:10:43,027 - INFO - epoch 20 started
+2025-10-26 12:10:47,290 - WARNING - The model version conversion is not supported by the onnxscript version converter and fallback is enabled. The model will be converted using the onnx C API (target version: 24).
+2025-10-26 12:10:47,295 - INFO - Removed 1 unused nodes
+2025-10-26 12:10:47,295 - INFO - No unused functions to remove
+2025-10-26 12:10:47,295 - INFO - Skipping constant folding for node 'node_Shape_0' because it is graph input to preserve graph signature
+2025-10-26 12:10:47,296 - INFO - Skipping constant folding for node 'node_conv2d' because it is graph input to preserve graph signature
+2025-10-26 12:10:47,300 - INFO - Removed 6 unused nodes
+2025-10-26 12:10:47,300 - INFO - No unused functions to remove
+2025-10-26 12:10:47,300 - INFO - Skipping constant folding for node 'node_Shape_0' because it is graph input to preserve graph signature
+2025-10-26 12:10:47,300 - INFO - Skipping constant folding for node 'node_conv2d' because it is graph input to preserve graph signature
+2025-10-26 12:10:47,303 - INFO - Removed 1 unused nodes
+2025-10-26 12:10:47,303 - INFO - No unused functions to remove
+2025-10-26 12:10:47,436 - INFO - model & onnx files are saved at registry
+2025-10-26 12:10:47,436 - INFO - loss = 259.3672 | val_loss = 2.2963 | val_accuracy = 10.19%
+2025-10-26 12:10:47,436 - INFO - --------------------------------------------------
+2025-10-26 12:10:47,436 - INFO - epoch 21 started
+2025-10-26 12:10:51,123 - INFO - loss = 259.3322 | val_loss = 2.2964 | val_accuracy = 9.93%
+2025-10-26 12:10:51,123 - INFO - --------------------------------------------------
+2025-10-26 12:10:51,123 - INFO - epoch 22 started
+2025-10-26 12:10:55,303 - WARNING - The model version conversion is not supported by the onnxscript version converter and fallback is enabled. The model will be converted using the onnx C API (target version: 24).
+2025-10-26 12:10:55,308 - INFO - Removed 1 unused nodes
+2025-10-26 12:10:55,308 - INFO - No unused functions to remove
+2025-10-26 12:10:55,309 - INFO - Skipping constant folding for node 'node_Shape_0' because it is graph input to preserve graph signature
+2025-10-26 12:10:55,309 - INFO - Skipping constant folding for node 'node_conv2d' because it is graph input to preserve graph signature
+2025-10-26 12:10:55,313 - INFO - Removed 6 unused nodes
+2025-10-26 12:10:55,313 - INFO - No unused functions to remove
+2025-10-26 12:10:55,313 - INFO - Skipping constant folding for node 'node_Shape_0' because it is graph input to preserve graph signature
+2025-10-26 12:10:55,313 - INFO - Skipping constant folding for node 'node_conv2d' because it is graph input to preserve graph signature
+2025-10-26 12:10:55,316 - INFO - Removed 1 unused nodes
+2025-10-26 12:10:55,316 - INFO - No unused functions to remove
+2025-10-26 12:10:55,448 - INFO - model & onnx files are saved at registry
+2025-10-26 12:10:55,449 - INFO - loss = 259.3570 | val_loss = 2.2963 | val_accuracy = 10.25%
+2025-10-26 12:10:55,449 - INFO - --------------------------------------------------
+2025-10-26 12:10:55,449 - INFO - epoch 23 started
+2025-10-26 12:10:59,130 - INFO - loss = 259.3297 | val_loss = 2.2964 | val_accuracy = 9.90%
+2025-10-26 12:10:59,130 - INFO - --------------------------------------------------
+2025-10-26 12:10:59,130 - INFO - epoch 24 started
+2025-10-26 12:11:03,411 - WARNING - The model version conversion is not supported by the onnxscript version converter and fallback is enabled. The model will be converted using the onnx C API (target version: 24).
+2025-10-26 12:11:03,415 - INFO - Removed 1 unused nodes
+2025-10-26 12:11:03,416 - INFO - No unused functions to remove
+2025-10-26 12:11:03,416 - INFO - Skipping constant folding for node 'node_Shape_0' because it is graph input to preserve graph signature
+2025-10-26 12:11:03,416 - INFO - Skipping constant folding for node 'node_conv2d' because it is graph input to preserve graph signature
+2025-10-26 12:11:03,420 - INFO - Removed 6 unused nodes
+2025-10-26 12:11:03,420 - INFO - No unused functions to remove
+2025-10-26 12:11:03,420 - INFO - Skipping constant folding for node 'node_Shape_0' because it is graph input to preserve graph signature
+2025-10-26 12:11:03,421 - INFO - Skipping constant folding for node 'node_conv2d' because it is graph input to preserve graph signature
+2025-10-26 12:11:03,424 - INFO - Removed 1 unused nodes
+2025-10-26 12:11:03,424 - INFO - No unused functions to remove
+2025-10-26 12:11:03,561 - INFO - model & onnx files are saved at registry
+2025-10-26 12:11:03,561 - INFO - loss = 259.3448 | val_loss = 2.2962 | val_accuracy = 10.21%
+2025-10-26 12:11:03,561 - INFO - --------------------------------------------------
+2025-10-26 12:11:03,561 - INFO - epoch 25 started
+2025-10-26 12:11:07,255 - INFO - loss = 259.3222 | val_loss = 2.2962 | val_accuracy = 10.10%
+2025-10-26 12:11:07,255 - INFO - --------------------------------------------------
+2025-10-26 12:11:07,255 - INFO - epoch 26 started
+2025-10-26 12:11:10,948 - INFO - loss = 259.3385 | val_loss = 2.2964 | val_accuracy = 10.25%
+2025-10-26 12:11:10,949 - INFO - --------------------------------------------------
+2025-10-26 12:11:10,949 - INFO - epoch 27 started
+2025-10-26 12:11:14,641 - INFO - loss = 259.3153 | val_loss = 2.2957 | val_accuracy = 10.12%
+2025-10-26 12:11:14,642 - INFO - --------------------------------------------------
+2025-10-26 12:11:14,642 - INFO - epoch 28 started
+2025-10-26 12:11:18,348 - INFO - loss = 259.3307 | val_loss = 2.2967 | val_accuracy = 10.19%
+2025-10-26 12:11:18,348 - INFO - --------------------------------------------------
+2025-10-26 12:11:18,348 - INFO - epoch 29 started
+2025-10-26 12:11:22,035 - INFO - loss = 259.3127 | val_loss = 2.2953 | val_accuracy = 10.09%
+2025-10-26 12:11:22,035 - INFO - --------------------------------------------------
+2025-10-26 12:11:22,035 - INFO - epoch 30 started
+2025-10-26 12:11:25,717 - INFO - loss = 259.3281 | val_loss = 2.2967 | val_accuracy = 10.12%
+2025-10-26 12:11:25,717 - INFO - --------------------------------------------------
+2025-10-26 12:11:25,717 - INFO - epoch 31 started
+2025-10-26 12:11:29,408 - INFO - loss = 259.3088 | val_loss = 2.2951 | val_accuracy = 9.99%
+2025-10-26 12:11:29,408 - INFO - --------------------------------------------------
+2025-10-26 12:11:29,408 - INFO - epoch 32 started
+2025-10-26 12:11:33,105 - INFO - loss = 259.3161 | val_loss = 2.2966 | val_accuracy = 10.12%
+2025-10-26 12:11:33,105 - INFO - --------------------------------------------------
+2025-10-26 12:11:33,105 - INFO - epoch 33 started
+2025-10-26 12:11:36,793 - INFO - loss = 259.2999 | val_loss = 2.2951 | val_accuracy = 10.06%
+2025-10-26 12:11:36,793 - INFO - --------------------------------------------------
+2025-10-26 12:11:36,793 - INFO - epoch 34 started
+2025-10-26 12:11:40,490 - INFO - loss = 259.3021 | val_loss = 2.2963 | val_accuracy = 10.15%
+2025-10-26 12:11:40,490 - INFO - --------------------------------------------------
+2025-10-26 12:11:40,490 - INFO - epoch 35 started
+2025-10-26 12:11:44,671 - WARNING - The model version conversion is not supported by the onnxscript version converter and fallback is enabled. The model will be converted using the onnx C API (target version: 24).
+2025-10-26 12:11:44,677 - INFO - Removed 1 unused nodes
+2025-10-26 12:11:44,677 - INFO - No unused functions to remove
+2025-10-26 12:11:44,677 - INFO - Skipping constant folding for node 'node_Shape_0' because it is graph input to preserve graph signature
+2025-10-26 12:11:44,677 - INFO - Skipping constant folding for node 'node_conv2d' because it is graph input to preserve graph signature
+2025-10-26 12:11:44,681 - INFO - Removed 6 unused nodes
+2025-10-26 12:11:44,681 - INFO - No unused functions to remove
+2025-10-26 12:11:44,681 - INFO - Skipping constant folding for node 'node_Shape_0' because it is graph input to preserve graph signature
+2025-10-26 12:11:44,682 - INFO - Skipping constant folding for node 'node_conv2d' because it is graph input to preserve graph signature
+2025-10-26 12:11:44,684 - INFO - Removed 1 unused nodes
+2025-10-26 12:11:44,685 - INFO - No unused functions to remove
+2025-10-26 12:11:44,816 - INFO - model & onnx files are saved at registry
+2025-10-26 12:11:44,816 - INFO - loss = 259.2939 | val_loss = 2.2951 | val_accuracy = 10.32%
+2025-10-26 12:11:44,816 - INFO - --------------------------------------------------
+2025-10-26 12:11:44,816 - INFO - epoch 36 started
+2025-10-26 12:11:48,511 - INFO - loss = 259.2907 | val_loss = 2.2962 | val_accuracy = 10.15%
+2025-10-26 12:11:48,511 - INFO - --------------------------------------------------
+2025-10-26 12:11:48,511 - INFO - epoch 37 started
+2025-10-26 12:11:52,799 - WARNING - The model version conversion is not supported by the onnxscript version converter and fallback is enabled. The model will be converted using the onnx C API (target version: 24).
+2025-10-26 12:11:52,804 - INFO - Removed 1 unused nodes
+2025-10-26 12:11:52,804 - INFO - No unused functions to remove
+2025-10-26 12:11:52,804 - INFO - Skipping constant folding for node 'node_Shape_0' because it is graph input to preserve graph signature
+2025-10-26 12:11:52,805 - INFO - Skipping constant folding for node 'node_conv2d' because it is graph input to preserve graph signature
+2025-10-26 12:11:52,808 - INFO - Removed 6 unused nodes
+2025-10-26 12:11:52,809 - INFO - No unused functions to remove
+2025-10-26 12:11:52,809 - INFO - Skipping constant folding for node 'node_Shape_0' because it is graph input to preserve graph signature
+2025-10-26 12:11:52,809 - INFO - Skipping constant folding for node 'node_conv2d' because it is graph input to preserve graph signature
+2025-10-26 12:11:52,812 - INFO - Removed 1 unused nodes
+2025-10-26 12:11:52,812 - INFO - No unused functions to remove
+2025-10-26 12:11:52,949 - INFO - model & onnx files are saved at registry
+2025-10-26 12:11:52,949 - INFO - loss = 259.2839 | val_loss = 2.2952 | val_accuracy = 10.38%
+2025-10-26 12:11:52,949 - INFO - --------------------------------------------------
+2025-10-26 12:11:52,949 - INFO - epoch 38 started
+2025-10-26 12:11:56,657 - INFO - loss = 259.2797 | val_loss = 2.2960 | val_accuracy = 10.29%
+2025-10-26 12:11:56,657 - INFO - --------------------------------------------------
+2025-10-26 12:11:56,657 - INFO - epoch 39 started
+2025-10-26 12:12:00,371 - INFO - loss = 259.2785 | val_loss = 2.2952 | val_accuracy = 10.26%
+2025-10-26 12:12:00,371 - INFO - --------------------------------------------------
+2025-10-26 12:12:00,371 - INFO - epoch 40 started
+2025-10-26 12:12:04,077 - INFO - loss = 259.2716 | val_loss = 2.2957 | val_accuracy = 10.16%
+2025-10-26 12:12:04,077 - INFO - --------------------------------------------------
+2025-10-26 12:12:04,077 - INFO - epoch 41 started
+2025-10-26 12:12:08,259 - WARNING - The model version conversion is not supported by the onnxscript version converter and fallback is enabled. The model will be converted using the onnx C API (target version: 24).
+2025-10-26 12:12:08,264 - INFO - Removed 1 unused nodes
+2025-10-26 12:12:08,264 - INFO - No unused functions to remove
+2025-10-26 12:12:08,264 - INFO - Skipping constant folding for node 'node_Shape_0' because it is graph input to preserve graph signature
+2025-10-26 12:12:08,265 - INFO - Skipping constant folding for node 'node_conv2d' because it is graph input to preserve graph signature
+2025-10-26 12:12:08,268 - INFO - Removed 6 unused nodes
+2025-10-26 12:12:08,269 - INFO - No unused functions to remove
+2025-10-26 12:12:08,269 - INFO - Skipping constant folding for node 'node_Shape_0' because it is graph input to preserve graph signature
+2025-10-26 12:12:08,269 - INFO - Skipping constant folding for node 'node_conv2d' because it is graph input to preserve graph signature
+2025-10-26 12:12:08,272 - INFO - Removed 1 unused nodes
+2025-10-26 12:12:08,272 - INFO - No unused functions to remove
+2025-10-26 12:12:08,392 - INFO - model & onnx files are saved at registry
+2025-10-26 12:12:08,392 - INFO - loss = 259.2753 | val_loss = 2.2954 | val_accuracy = 10.19%
+2025-10-26 12:12:08,392 - INFO - --------------------------------------------------
+2025-10-26 12:12:08,392 - INFO - epoch 42 started
+2025-10-26 12:12:12,088 - INFO - loss = 259.2649 | val_loss = 2.2955 | val_accuracy = 9.84%
+2025-10-26 12:12:12,089 - INFO - --------------------------------------------------
+2025-10-26 12:12:12,089 - INFO - epoch 43 started
+2025-10-26 12:12:15,768 - INFO - loss = 259.2759 | val_loss = 2.2955 | val_accuracy = 10.26%
+2025-10-26 12:12:15,768 - INFO - --------------------------------------------------
+2025-10-26 12:12:15,768 - INFO - epoch 44 started
+2025-10-26 12:12:19,475 - INFO - loss = 259.2589 | val_loss = 2.2954 | val_accuracy = 9.84%
+2025-10-26 12:12:19,475 - INFO - --------------------------------------------------
+2025-10-26 12:12:19,475 - INFO - epoch 45 started
+2025-10-26 12:12:23,166 - INFO - loss = 259.2720 | val_loss = 2.2955 | val_accuracy = 10.37%
+2025-10-26 12:12:23,166 - INFO - --------------------------------------------------
+2025-10-26 12:12:23,166 - INFO - epoch 46 started
+2025-10-26 12:12:26,834 - INFO - loss = 259.2523 | val_loss = 2.2953 | val_accuracy = 9.85%
+2025-10-26 12:12:26,834 - INFO - --------------------------------------------------
+2025-10-26 12:12:26,834 - INFO - epoch 47 started
+2025-10-26 12:12:30,522 - INFO - loss = 259.2654 | val_loss = 2.2954 | val_accuracy = 10.22%
+2025-10-26 12:12:30,523 - INFO - --------------------------------------------------
+2025-10-26 12:12:30,523 - INFO - epoch 48 started
+2025-10-26 12:12:34,215 - INFO - loss = 259.2480 | val_loss = 2.2953 | val_accuracy = 10.06%
+2025-10-26 12:12:34,215 - INFO - --------------------------------------------------
+2025-10-26 12:12:34,215 - INFO - epoch 49 started
+2025-10-26 12:12:37,901 - INFO - loss = 259.2622 | val_loss = 2.2954 | val_accuracy = 10.22%
+2025-10-26 12:12:37,901 - INFO - --------------------------------------------------
+2025-10-26 12:12:37,901 - INFO - epoch 50 started
+2025-10-26 12:12:41,597 - INFO - loss = 259.2458 | val_loss = 2.2952 | val_accuracy = 10.13%
+2025-10-26 21:21:39,767 - INFO - --------------------------------------------------
+2025-10-26 21:21:39,768 - INFO - pytorch version: 2.9.0+cu128
+2025-10-26 21:21:39,768 - INFO - numpy version: 2.3.4
+2025-10-26 21:21:39,768 - INFO - pandas version: 2.3.3
+2025-10-26 21:21:39,768 - INFO - matplotlib version: 3.10.7
+2025-10-26 21:21:39,768 - INFO - pillow version: 12.0.0
+2025-10-26 21:21:39,768 - INFO - --------------------------------------------------
+2025-10-26 21:21:39,821 - INFO - CUDA Is Available : True
+2025-10-26 21:21:39,821 - INFO - --------------------------------------------------
+2025-10-26 21:21:39,836 - INFO - Original size: 10000, Filtered size: 9040
+2025-10-26 21:21:39,850 - INFO - Original size: 10000, Filtered size: 9040
+2025-10-26 21:21:39,874 - INFO - Original size: 10000, Filtered size: 9040
+2025-10-26 21:21:40,233 - INFO - --------------------------------------------------
+2025-10-26 21:21:40,233 - INFO - epoch 1 started
+2025-10-26 21:23:19,216 - INFO - --------------------------------------------------
+2025-10-26 21:23:19,216 - INFO - pytorch version: 2.9.0+cu128
+2025-10-26 21:23:19,216 - INFO - numpy version: 2.3.4
+2025-10-26 21:23:19,216 - INFO - pandas version: 2.3.3
+2025-10-26 21:23:19,217 - INFO - matplotlib version: 3.10.7
+2025-10-26 21:23:19,217 - INFO - pillow version: 12.0.0
+2025-10-26 21:23:19,217 - INFO - --------------------------------------------------
+2025-10-26 21:23:21,237 - INFO - CUDA Is Available : True
+2025-10-26 21:23:21,237 - INFO - --------------------------------------------------
+2025-10-26 21:23:21,254 - INFO - Original size: 10000, Filtered size: 9040
+2025-10-26 21:23:21,271 - INFO - Original size: 10000, Filtered size: 9040
+2025-10-26 21:23:21,305 - INFO - Original size: 10000, Filtered size: 9040
+2025-10-26 21:23:21,581 - INFO - --------------------------------------------------
+2025-10-26 21:23:21,581 - INFO - epoch 1 started
+2025-10-26 21:23:26,203 - INFO - training loss: 2.2997
+2025-10-26 21:23:27,491 - INFO - validation loss: 2.2976
+2025-10-26 21:23:27,491 - INFO - validation accuracy: 9.9880
+2025-10-26 21:23:27,727 - INFO - best accuracy: 9.9880 | best loss: 66.6298
+2025-10-26 21:23:27,727 - INFO - saved to model registry!
+2025-10-26 21:23:27,727 - INFO - --------------------------------------------------
+2025-10-26 21:23:27,727 - INFO - epoch 2 started
+2025-10-26 21:23:31,695 - INFO - training loss: 2.2963
+2025-10-26 21:23:32,161 - INFO - validation loss: 2.2964
+2025-10-26 21:23:32,161 - INFO - validation accuracy: 10.1032
+2025-10-26 21:23:32,339 - INFO - best accuracy: 10.1032 | best loss: 66.5943
+2025-10-26 21:23:32,339 - INFO - saved to model registry!
+2025-10-26 21:23:32,339 - INFO - --------------------------------------------------
+2025-10-26 21:23:32,339 - INFO - epoch 3 started
+2025-10-26 21:23:50,525 - INFO - --------------------------------------------------
+2025-10-26 21:23:50,525 - INFO - pytorch version: 2.9.0+cu128
+2025-10-26 21:23:50,525 - INFO - numpy version: 2.3.4
+2025-10-26 21:23:50,525 - INFO - pandas version: 2.3.3
+2025-10-26 21:23:50,525 - INFO - matplotlib version: 3.10.7
+2025-10-26 21:23:50,525 - INFO - pillow version: 12.0.0
+2025-10-26 21:23:50,525 - INFO - --------------------------------------------------
+2025-10-26 21:23:52,540 - INFO - CUDA Is Available : True
+2025-10-26 21:23:52,540 - INFO - --------------------------------------------------
+2025-10-26 21:23:52,556 - INFO - Original size: 10000, Filtered size: 9040
+2025-10-26 21:23:52,570 - INFO - Original size: 10000, Filtered size: 9040
+2025-10-26 21:23:52,582 - INFO - Original size: 10000, Filtered size: 9040
+2025-10-26 21:23:52,803 - INFO - --------------------------------------------------
+2025-10-26 21:23:52,804 - INFO - epoch 1 started
+2025-10-26 21:23:56,856 - INFO - training loss: 2.2992
+2025-10-26 21:23:58,078 - INFO - validation loss: 2.2978
+2025-10-26 21:23:58,078 - INFO - validation accuracy: 10.0756%
+2025-10-26 21:23:58,235 - INFO - best accuracy: 10.0756 | best loss: 66.6363
+2025-10-26 21:23:58,235 - INFO - saved to model registry!
+2025-10-26 21:23:58,235 - INFO - --------------------------------------------------
+2025-10-26 21:23:58,235 - INFO - epoch 2 started
+2025-10-26 21:24:02,215 - INFO - training loss: 2.2963
+2025-10-26 21:24:02,700 - INFO - validation loss: 2.2974
+2025-10-26 21:24:02,700 - INFO - validation accuracy: 9.9327%
+2025-10-26 21:24:02,858 - INFO - best accuracy: 9.9327 | best loss: 66.6260
+2025-10-26 21:24:02,858 - INFO - saved to model registry!
+2025-10-26 21:24:02,859 - INFO - --------------------------------------------------
+2025-10-26 21:24:02,859 - INFO - epoch 3 started
+2025-10-26 21:24:06,423 - INFO - training loss: 2.2951
+2025-10-26 21:24:06,918 - INFO - validation loss: 2.2980
+2025-10-26 21:24:06,918 - INFO - validation accuracy: 9.9327%
+2025-10-26 21:24:06,918 - INFO - --------------------------------------------------
+2025-10-26 21:24:06,918 - INFO - epoch 4 started
+2025-10-26 21:24:10,704 - INFO - training loss: 2.2949
+2025-10-26 21:24:11,145 - INFO - validation loss: 2.2969
+2025-10-26 21:24:11,146 - INFO - validation accuracy: 9.8313%
+2025-10-26 21:24:11,361 - INFO - best accuracy: 9.8313 | best loss: 66.6090
+2025-10-26 21:24:11,361 - INFO - saved to model registry!
+2025-10-26 21:24:11,361 - INFO - --------------------------------------------------
+2025-10-26 21:24:11,361 - INFO - epoch 5 started
+2025-10-26 21:24:14,930 - INFO - training loss: 2.2946
+2025-10-26 21:24:15,390 - INFO - validation loss: 2.2961
+2025-10-26 21:24:15,390 - INFO - validation accuracy: 10.0018%
+2025-10-26 21:24:15,536 - INFO - best accuracy: 10.0018 | best loss: 66.5878
+2025-10-26 21:24:15,537 - INFO - saved to model registry!
+2025-10-26 21:24:15,537 - INFO - --------------------------------------------------
+2025-10-26 21:24:15,537 - INFO - epoch 6 started
+2025-10-26 21:24:19,129 - INFO - training loss: 2.2945
+2025-10-26 21:24:19,639 - INFO - validation loss: 2.2965
+2025-10-26 21:24:19,639 - INFO - validation accuracy: 9.7668%
+2025-10-26 21:24:19,639 - INFO - --------------------------------------------------
+2025-10-26 21:24:19,639 - INFO - epoch 7 started
+2025-10-26 21:24:23,200 - INFO - training loss: 2.2946
+2025-10-26 21:24:23,671 - INFO - validation loss: 2.2967
+2025-10-26 21:24:23,672 - INFO - validation accuracy: 9.8774%
+2025-10-26 21:24:23,672 - INFO - --------------------------------------------------
+2025-10-26 21:24:23,672 - INFO - epoch 8 started
+2025-10-26 21:24:27,300 - INFO - training loss: 2.2943
+2025-10-26 21:24:27,817 - INFO - validation loss: 2.2957
+2025-10-26 21:24:27,817 - INFO - validation accuracy: 9.8083%
+2025-10-26 21:24:28,079 - INFO - best accuracy: 9.8083 | best loss: 66.5753
+2025-10-26 21:24:28,079 - INFO - saved to model registry!
+2025-10-26 21:24:28,079 - INFO - --------------------------------------------------
+2025-10-26 21:24:28,079 - INFO - epoch 9 started
+2025-10-26 21:24:31,732 - INFO - training loss: 2.2943
+2025-10-26 21:24:32,225 - INFO - validation loss: 2.2958
+2025-10-26 21:24:32,226 - INFO - validation accuracy: 9.8267%
+2025-10-26 21:24:32,392 - INFO - best accuracy: 9.8267 | best loss: 66.5787
+2025-10-26 21:24:32,393 - INFO - saved to model registry!
+2025-10-26 21:24:32,393 - INFO - --------------------------------------------------
+2025-10-26 21:24:32,393 - INFO - epoch 10 started
+2025-10-26 21:24:35,961 - INFO - training loss: 2.2946
+2025-10-26 21:24:36,498 - INFO - validation loss: 2.2951
+2025-10-26 21:24:36,498 - INFO - validation accuracy: 10.0111%
+2025-10-26 21:24:36,804 - INFO - best accuracy: 10.0111 | best loss: 66.5568
+2025-10-26 21:24:36,805 - INFO - saved to model registry!
+2025-10-26 21:24:36,805 - INFO - --------------------------------------------------
+2025-10-26 21:24:36,805 - INFO - epoch 11 started
+2025-10-26 21:24:40,409 - INFO - training loss: 2.2944
+2025-10-26 21:24:40,995 - INFO - validation loss: 2.2951
+2025-10-26 21:24:40,995 - INFO - validation accuracy: 10.0018%
+2025-10-26 21:24:40,995 - INFO - --------------------------------------------------
+2025-10-26 21:24:40,995 - INFO - epoch 12 started
+2025-10-26 21:24:44,655 - INFO - training loss: 2.2944
+2025-10-26 21:24:45,139 - INFO - validation loss: 2.2953
+2025-10-26 21:24:45,139 - INFO - validation accuracy: 9.8175%
+2025-10-26 21:24:45,139 - INFO - --------------------------------------------------
+2025-10-26 21:24:45,139 - INFO - epoch 13 started
+2025-10-26 21:24:48,798 - INFO - training loss: 2.2944
+2025-10-26 21:24:49,368 - INFO - validation loss: 2.2948
+2025-10-26 21:24:49,369 - INFO - validation accuracy: 9.8221%
+2025-10-26 21:24:49,697 - INFO - best accuracy: 9.8221 | best loss: 66.5506
+2025-10-26 21:24:49,698 - INFO - saved to model registry!
+2025-10-26 21:24:49,698 - INFO - --------------------------------------------------
+2025-10-26 21:24:49,698 - INFO - epoch 14 started
+2025-10-26 21:24:53,367 - INFO - training loss: 2.2943
+2025-10-26 21:24:53,841 - INFO - validation loss: 2.2949
+2025-10-26 21:24:53,842 - INFO - validation accuracy: 9.8221%
+2025-10-26 21:24:53,842 - INFO - --------------------------------------------------
+2025-10-26 21:24:53,842 - INFO - epoch 15 started
+2025-10-26 21:24:57,508 - INFO - training loss: 2.2943
+2025-10-26 21:24:58,051 - INFO - validation loss: 2.2949
+2025-10-26 21:24:58,051 - INFO - validation accuracy: 9.8221%
+2025-10-26 21:24:58,051 - INFO - --------------------------------------------------
+2025-10-26 21:24:58,051 - INFO - epoch 16 started
+2025-10-26 21:25:01,725 - INFO - training loss: 2.2942
+2025-10-26 21:25:02,265 - INFO - validation loss: 2.2949
+2025-10-26 21:25:02,265 - INFO - validation accuracy: 9.9511%
+2025-10-26 21:25:02,548 - INFO - best accuracy: 9.9511 | best loss: 66.5528
+2025-10-26 21:25:02,548 - INFO - saved to model registry!
+2025-10-26 21:25:02,549 - INFO - --------------------------------------------------
+2025-10-26 21:25:02,549 - INFO - epoch 17 started
+2025-10-26 21:25:06,205 - INFO - training loss: 2.2941
+2025-10-26 21:25:06,697 - INFO - validation loss: 2.2953
+2025-10-26 21:25:06,697 - INFO - validation accuracy: 9.9281%
+2025-10-26 21:25:06,697 - INFO - --------------------------------------------------
+2025-10-26 21:25:06,698 - INFO - epoch 18 started
+2025-10-26 21:25:10,284 - INFO - training loss: 2.2941
+2025-10-26 21:25:10,800 - INFO - validation loss: 2.2948
+2025-10-26 21:25:10,800 - INFO - validation accuracy: 9.9143%
+2025-10-26 21:25:11,071 - INFO - best accuracy: 9.9143 | best loss: 66.5481
+2025-10-26 21:25:11,071 - INFO - saved to model registry!
+2025-10-26 21:25:11,071 - INFO - --------------------------------------------------
+2025-10-26 21:25:11,071 - INFO - epoch 19 started
+2025-10-26 21:25:14,733 - INFO - training loss: 2.2941
+2025-10-26 21:25:15,223 - INFO - validation loss: 2.2948
+2025-10-26 21:25:15,223 - INFO - validation accuracy: 9.8221%
+2025-10-26 21:25:15,223 - INFO - --------------------------------------------------
+2025-10-26 21:25:15,223 - INFO - epoch 20 started
+2025-10-26 21:25:18,860 - INFO - training loss: 2.2941
+2025-10-26 21:25:19,434 - INFO - validation loss: 2.2948
+2025-10-26 21:25:19,434 - INFO - validation accuracy: 9.8221%
+2025-10-26 21:25:19,435 - INFO - --------------------------------------------------
+2025-10-26 21:25:19,435 - INFO - epoch 21 started
+2025-10-26 21:25:23,094 - INFO - training loss: 2.2941
+2025-10-26 21:25:23,601 - INFO - validation loss: 2.2948
+2025-10-26 21:25:23,601 - INFO - validation accuracy: 9.9926%
+2025-10-26 21:25:23,835 - INFO - best accuracy: 9.9926 | best loss: 66.5489
+2025-10-26 21:25:23,835 - INFO - saved to model registry!
+2025-10-26 21:25:23,835 - INFO - --------------------------------------------------
+2025-10-26 21:25:23,835 - INFO - epoch 22 started
+2025-10-26 21:25:27,458 - INFO - training loss: 2.2941
+2025-10-26 21:25:27,979 - INFO - validation loss: 2.2948
+2025-10-26 21:25:27,980 - INFO - validation accuracy: 9.9926%
+2025-10-26 21:25:27,980 - INFO - --------------------------------------------------
+2025-10-26 21:25:27,980 - INFO - epoch 23 started
+2025-10-26 21:25:31,737 - INFO - training loss: 2.2940
+2025-10-26 21:25:32,237 - INFO - validation loss: 2.2958
+2025-10-26 21:25:32,237 - INFO - validation accuracy: 9.8590%
+2025-10-26 21:25:32,237 - INFO - --------------------------------------------------
+2025-10-26 21:25:32,237 - INFO - epoch 24 started
+2025-10-26 21:25:35,859 - INFO - training loss: 2.2935
+2025-10-26 21:25:36,351 - INFO - validation loss: 2.2927
+2025-10-26 21:25:36,352 - INFO - validation accuracy: 10.8960%
+2025-10-26 21:25:36,535 - INFO - best accuracy: 10.8960 | best loss: 66.4880
+2025-10-26 21:25:36,535 - INFO - saved to model registry!
+2025-10-26 21:25:36,535 - INFO - --------------------------------------------------
+2025-10-26 21:25:36,535 - INFO - epoch 25 started
+2025-10-26 21:25:39,921 - INFO - training loss: 2.2385
+2025-10-26 21:25:40,221 - INFO - validation loss: 2.0774
+2025-10-26 21:25:40,221 - INFO - validation accuracy: 20.4462%
+2025-10-26 21:25:40,525 - INFO - best accuracy: 20.4462 | best loss: 60.2448
+2025-10-26 21:25:40,526 - INFO - saved to model registry!
+2025-10-26 21:25:40,526 - INFO - --------------------------------------------------
+2025-10-26 21:25:40,526 - INFO - epoch 26 started
+2025-10-26 21:25:44,100 - INFO - training loss: 2.1068
+2025-10-26 21:25:44,572 - INFO - validation loss: 1.9265
+2025-10-26 21:25:44,572 - INFO - validation accuracy: 24.4699%
+2025-10-26 21:25:44,720 - INFO - best accuracy: 24.4699 | best loss: 55.8693
+2025-10-26 21:25:44,720 - INFO - saved to model registry!
+2025-10-26 21:25:44,720 - INFO - --------------------------------------------------
+2025-10-26 21:25:44,720 - INFO - epoch 27 started
+2025-10-26 21:25:48,283 - INFO - training loss: 2.0076
+2025-10-26 21:25:48,782 - INFO - validation loss: 1.7930
+2025-10-26 21:25:48,782 - INFO - validation accuracy: 30.1715%
+2025-10-26 21:25:48,942 - INFO - best accuracy: 30.1715 | best loss: 51.9978
+2025-10-26 21:25:48,942 - INFO - saved to model registry!
+2025-10-26 21:25:48,942 - INFO - --------------------------------------------------
+2025-10-26 21:25:48,942 - INFO - epoch 28 started
+2025-10-26 21:25:52,315 - INFO - training loss: 1.8690
+2025-10-26 21:25:52,598 - INFO - validation loss: 1.6089
+2025-10-26 21:25:52,598 - INFO - validation accuracy: 37.9379%
+2025-10-26 21:25:52,892 - INFO - best accuracy: 37.9379 | best loss: 46.6593
+2025-10-26 21:25:52,892 - INFO - saved to model registry!
+2025-10-26 21:25:52,892 - INFO - --------------------------------------------------
+2025-10-26 21:25:52,892 - INFO - epoch 29 started
+2025-10-26 21:25:56,549 - INFO - training loss: 1.7026
+2025-10-26 21:25:57,120 - INFO - validation loss: 1.4590
+2025-10-26 21:25:57,121 - INFO - validation accuracy: 43.6624%
+2025-10-26 21:25:57,419 - INFO - best accuracy: 43.6624 | best loss: 42.3121
+2025-10-26 21:25:57,420 - INFO - saved to model registry!
+2025-10-26 21:25:57,420 - INFO - --------------------------------------------------
+2025-10-26 21:25:57,420 - INFO - epoch 30 started
+2025-10-26 21:26:01,067 - INFO - training loss: 1.5734
+2025-10-26 21:26:01,549 - INFO - validation loss: 1.3200
+2025-10-26 21:26:01,549 - INFO - validation accuracy: 49.0690%
+2025-10-26 21:26:01,741 - INFO - best accuracy: 49.0690 | best loss: 38.2802
+2025-10-26 21:26:01,741 - INFO - saved to model registry!
+2025-10-26 21:26:01,741 - INFO - --------------------------------------------------
+2025-10-26 21:26:01,741 - INFO - epoch 31 started
+2025-10-26 21:26:05,331 - INFO - training loss: 1.4641
+2025-10-26 21:26:05,828 - INFO - validation loss: 1.2150
+2025-10-26 21:26:05,828 - INFO - validation accuracy: 52.8577%
+2025-10-26 21:26:06,013 - INFO - best accuracy: 52.8577 | best loss: 35.2354
+2025-10-26 21:26:06,014 - INFO - saved to model registry!
+2025-10-26 21:26:06,014 - INFO - --------------------------------------------------
+2025-10-26 21:26:06,014 - INFO - epoch 32 started
+2025-10-26 21:26:09,658 - INFO - training loss: 1.3736
+2025-10-26 21:26:10,237 - INFO - validation loss: 1.1203
+2025-10-26 21:26:10,237 - INFO - validation accuracy: 57.0658%
+2025-10-26 21:26:10,513 - INFO - best accuracy: 57.0658 | best loss: 32.4892
+2025-10-26 21:26:10,513 - INFO - saved to model registry!
+2025-10-26 21:26:10,515 - INFO - --------------------------------------------------
+2025-10-26 21:26:10,515 - INFO - epoch 33 started
+2025-10-26 21:26:14,151 - INFO - training loss: 1.2941
+2025-10-26 21:26:14,705 - INFO - validation loss: 1.0539
+2025-10-26 21:26:14,705 - INFO - validation accuracy: 59.6101%
+2025-10-26 21:26:15,023 - INFO - best accuracy: 59.6101 | best loss: 30.5636
+2025-10-26 21:26:15,023 - INFO - saved to model registry!
+2025-10-26 21:26:15,023 - INFO - --------------------------------------------------
+2025-10-26 21:26:15,023 - INFO - epoch 34 started
+2025-10-26 21:26:18,760 - INFO - training loss: 1.2315
+2025-10-26 21:26:19,293 - INFO - validation loss: 0.9802
+2025-10-26 21:26:19,294 - INFO - validation accuracy: 62.9794%
+2025-10-26 21:26:19,482 - INFO - best accuracy: 62.9794 | best loss: 28.4266
+2025-10-26 21:26:19,482 - INFO - saved to model registry!
+2025-10-26 21:26:19,482 - INFO - --------------------------------------------------
+2025-10-26 21:26:19,482 - INFO - epoch 35 started
+2025-10-26 21:26:23,078 - INFO - training loss: 1.1656
+2025-10-26 21:26:23,560 - INFO - validation loss: 0.9266
+2025-10-26 21:26:23,560 - INFO - validation accuracy: 64.8875%
+2025-10-26 21:26:23,780 - INFO - best accuracy: 64.8875 | best loss: 26.8708
+2025-10-26 21:26:23,781 - INFO - saved to model registry!
+2025-10-26 21:26:23,781 - INFO - --------------------------------------------------
+2025-10-26 21:26:23,781 - INFO - epoch 36 started
+2025-10-26 21:26:27,408 - INFO - training loss: 1.1044
+2025-10-26 21:26:28,004 - INFO - validation loss: 0.8713
+2025-10-26 21:26:28,005 - INFO - validation accuracy: 67.3119%
+2025-10-26 21:26:28,280 - INFO - best accuracy: 67.3119 | best loss: 25.2666
+2025-10-26 21:26:28,280 - INFO - saved to model registry!
+2025-10-26 21:26:28,280 - INFO - --------------------------------------------------
+2025-10-26 21:26:28,280 - INFO - epoch 37 started
+2025-10-26 21:26:31,907 - INFO - training loss: 1.0638
+2025-10-26 21:26:32,460 - INFO - validation loss: 0.8325
+2025-10-26 21:26:32,460 - INFO - validation accuracy: 69.2985%
+2025-10-26 21:26:32,791 - INFO - best accuracy: 69.2985 | best loss: 24.1414
+2025-10-26 21:26:32,792 - INFO - saved to model registry!
+2025-10-26 21:26:32,792 - INFO - --------------------------------------------------
+2025-10-26 21:26:32,792 - INFO - epoch 38 started
+2025-10-26 21:26:36,475 - INFO - training loss: 1.0182
+2025-10-26 21:26:37,033 - INFO - validation loss: 0.8039
+2025-10-26 21:26:37,033 - INFO - validation accuracy: 70.1650%
+2025-10-26 21:26:37,224 - INFO - best accuracy: 70.1650 | best loss: 23.3132
+2025-10-26 21:26:37,224 - INFO - saved to model registry!
+2025-10-26 21:26:37,225 - INFO - --------------------------------------------------
+2025-10-26 21:26:37,225 - INFO - epoch 39 started
+2025-10-26 21:26:40,886 - INFO - training loss: 0.9749
+2025-10-26 21:26:41,471 - INFO - validation loss: 0.7502
+2025-10-26 21:26:41,471 - INFO - validation accuracy: 72.6908%
+2025-10-26 21:26:41,718 - INFO - best accuracy: 72.6908 | best loss: 21.7553
+2025-10-26 21:26:41,718 - INFO - saved to model registry!
+2025-10-26 21:26:41,719 - INFO - --------------------------------------------------
+2025-10-26 21:26:41,719 - INFO - epoch 40 started
+2025-10-26 21:26:45,353 - INFO - training loss: 0.9383
+2025-10-26 21:26:45,870 - INFO - validation loss: 0.7314
+2025-10-26 21:26:45,870 - INFO - validation accuracy: 73.1379%
+2025-10-26 21:26:46,150 - INFO - best accuracy: 73.1379 | best loss: 21.2094
+2025-10-26 21:26:46,150 - INFO - saved to model registry!
+2025-10-26 21:26:46,150 - INFO - --------------------------------------------------
+2025-10-26 21:26:46,150 - INFO - epoch 41 started
+2025-10-26 21:26:49,767 - INFO - training loss: 0.9011
+2025-10-26 21:26:50,271 - INFO - validation loss: 0.7090
+2025-10-26 21:26:50,272 - INFO - validation accuracy: 74.0275%
+2025-10-26 21:26:50,497 - INFO - best accuracy: 74.0275 | best loss: 20.5603
+2025-10-26 21:26:50,497 - INFO - saved to model registry!
+2025-10-26 21:26:50,497 - INFO - --------------------------------------------------
+2025-10-26 21:26:50,498 - INFO - epoch 42 started
+2025-10-26 21:26:54,138 - INFO - training loss: 0.8721
+2025-10-26 21:26:54,603 - INFO - validation loss: 0.6688
+2025-10-26 21:26:54,603 - INFO - validation accuracy: 75.5715%
+2025-10-26 21:26:54,819 - INFO - best accuracy: 75.5715 | best loss: 19.3966
+2025-10-26 21:26:54,819 - INFO - saved to model registry!
+2025-10-26 21:26:54,819 - INFO - --------------------------------------------------
+2025-10-26 21:26:54,819 - INFO - epoch 43 started
+2025-10-26 21:26:58,493 - INFO - training loss: 0.8508
+2025-10-26 21:26:58,944 - INFO - validation loss: 0.6510
+2025-10-26 21:26:58,944 - INFO - validation accuracy: 76.4058%
+2025-10-26 21:26:59,109 - INFO - best accuracy: 76.4058 | best loss: 18.8779
+2025-10-26 21:26:59,109 - INFO - saved to model registry!
+2025-10-26 21:26:59,109 - INFO - --------------------------------------------------
+2025-10-26 21:26:59,109 - INFO - epoch 44 started
+2025-10-26 21:27:02,709 - INFO - training loss: 0.8124
+2025-10-26 21:27:03,198 - INFO - validation loss: 0.6192
+2025-10-26 21:27:03,198 - INFO - validation accuracy: 77.5489%
+2025-10-26 21:27:03,355 - INFO - best accuracy: 77.5489 | best loss: 17.9567
+2025-10-26 21:27:03,355 - INFO - saved to model registry!
+2025-10-26 21:27:03,355 - INFO - --------------------------------------------------
+2025-10-26 21:27:03,355 - INFO - epoch 45 started
+2025-10-26 21:27:07,016 - INFO - training loss: 0.7890
+2025-10-26 21:27:07,503 - INFO - validation loss: 0.6087
+2025-10-26 21:27:07,503 - INFO - validation accuracy: 77.8438%
+2025-10-26 21:27:07,673 - INFO - best accuracy: 77.8438 | best loss: 17.6515
+2025-10-26 21:27:07,674 - INFO - saved to model registry!
+2025-10-26 21:27:07,674 - INFO - --------------------------------------------------
+2025-10-26 21:27:07,674 - INFO - epoch 46 started
+2025-10-26 21:27:11,319 - INFO - training loss: 0.7672
+2025-10-26 21:27:11,882 - INFO - validation loss: 0.5843
+2025-10-26 21:27:11,882 - INFO - validation accuracy: 79.0053%
+2025-10-26 21:27:12,108 - INFO - best accuracy: 79.0053 | best loss: 16.9451
+2025-10-26 21:27:12,108 - INFO - saved to model registry!
+2025-10-26 21:27:12,108 - INFO - --------------------------------------------------
+2025-10-26 21:27:12,108 - INFO - epoch 47 started
+2025-10-26 21:27:14,747 - INFO - --------------------------------------------------
+2025-10-26 21:27:14,747 - INFO - pytorch version: 2.9.0+cu128
+2025-10-26 21:27:14,747 - INFO - numpy version: 2.3.4
+2025-10-26 21:27:14,747 - INFO - pandas version: 2.3.3
+2025-10-26 21:27:14,748 - INFO - matplotlib version: 3.10.7
+2025-10-26 21:27:14,748 - INFO - pillow version: 12.0.0
+2025-10-26 21:27:14,749 - INFO - --------------------------------------------------
+2025-10-26 21:27:14,802 - INFO - CUDA Is Available : True
+2025-10-26 21:27:14,803 - INFO - --------------------------------------------------
+2025-10-26 21:27:14,861 - INFO - Original size: 10000, Filtered size: 9040
+2025-10-26 21:27:14,914 - INFO - Original size: 10000, Filtered size: 9040
+2025-10-26 21:27:14,963 - INFO - Original size: 10000, Filtered size: 9040
+2025-10-26 21:27:15,760 - INFO - training loss: 0.7402
+2025-10-26 21:27:15,990 - INFO - --------------------------------------------------
+2025-10-26 21:27:15,990 - INFO - epoch 1 started
+2025-10-26 21:27:16,286 - INFO - validation loss: 0.5632
+2025-10-26 21:27:16,286 - INFO - validation accuracy: 79.8350%
+2025-10-26 21:27:16,619 - INFO - best accuracy: 79.8350 | best loss: 16.3316
+2025-10-26 21:27:16,619 - INFO - saved to model registry!
+2025-10-26 21:27:16,620 - INFO - --------------------------------------------------
+2025-10-26 21:27:16,620 - INFO - epoch 48 started
+2025-10-26 21:27:23,565 - INFO - training loss: 0.7199
+2025-10-26 21:27:23,785 - INFO - training loss: 2.3020
+2025-10-26 21:27:24,151 - INFO - validation loss: 0.5507
+2025-10-26 21:27:24,152 - INFO - validation accuracy: 80.2360%
+2025-10-26 21:27:25,191 - INFO - best accuracy: 80.2360 | best loss: 15.9714
+2025-10-26 21:27:25,192 - INFO - saved to model registry!
+2025-10-26 21:27:25,192 - INFO - --------------------------------------------------
+2025-10-26 21:27:25,192 - INFO - epoch 49 started
+2025-10-26 21:27:26,321 - INFO - validation loss: 2.2983
+2025-10-26 21:27:26,322 - INFO - validation accuracy: 10.0157%
+2025-10-26 21:27:27,784 - INFO - best accuracy: 10.0157% | best loss: 66.6508
+2025-10-26 21:27:27,784 - INFO - saved to model registry!
+2025-10-26 21:27:27,784 - INFO - --------------------------------------------------
+2025-10-26 21:27:27,785 - INFO - epoch 2 started
+2025-10-26 21:27:30,266 - INFO - training loss: 0.7049
+2025-10-26 21:27:31,071 - INFO - validation loss: 0.5359
+2025-10-26 21:27:31,071 - INFO - validation accuracy: 80.8490%
+2025-10-26 21:27:31,412 - INFO - best accuracy: 80.8490 | best loss: 15.5425
+2025-10-26 21:27:31,412 - INFO - saved to model registry!
+2025-10-26 21:27:31,412 - INFO - --------------------------------------------------
+2025-10-26 21:27:31,412 - INFO - epoch 50 started
+2025-10-26 21:27:34,026 - INFO - training loss: 2.2970
+2025-10-26 21:27:34,674 - INFO - validation loss: 2.2970
+2025-10-26 21:27:34,675 - INFO - validation accuracy: 9.7622%
+2025-10-26 21:27:35,456 - INFO - best accuracy: 9.7622% | best loss: 66.6131
+2025-10-26 21:27:35,456 - INFO - saved to model registry!
+2025-10-26 21:27:35,456 - INFO - --------------------------------------------------
+2025-10-26 21:27:35,456 - INFO - epoch 3 started
+2025-10-26 21:27:37,113 - INFO - training loss: 0.6876
+2025-10-26 21:27:37,915 - INFO - validation loss: 0.5229
+2025-10-26 21:27:37,915 - INFO - validation accuracy: 81.2500%
+2025-10-26 21:27:38,251 - INFO - best accuracy: 81.2500 | best loss: 15.1654
+2025-10-26 21:27:38,252 - INFO - saved to model registry!
+2025-10-26 21:27:40,177 - INFO - training loss: 2.2964
+2025-10-26 21:27:40,664 - INFO - validation loss: 2.2967
+2025-10-26 21:27:40,664 - INFO - validation accuracy: 9.9558%
+2025-10-26 21:27:41,050 - INFO - best accuracy: 9.9558% | best loss: 66.6049
+2025-10-26 21:27:41,050 - INFO - saved to model registry!
+2025-10-26 21:27:41,050 - INFO - --------------------------------------------------
+2025-10-26 21:27:41,050 - INFO - epoch 4 started
+2025-10-26 21:27:44,972 - INFO - training loss: 2.2957
+2025-10-26 21:27:45,483 - INFO - validation loss: 2.2960
+2025-10-26 21:27:45,483 - INFO - validation accuracy: 9.8590%
+2025-10-26 21:27:46,025 - INFO - best accuracy: 9.8590% | best loss: 66.5842
+2025-10-26 21:27:46,025 - INFO - saved to model registry!
+2025-10-26 21:27:46,025 - INFO - --------------------------------------------------
+2025-10-26 21:27:46,025 - INFO - epoch 5 started
+2025-10-26 21:27:49,565 - INFO - training loss: 2.2955
+2025-10-26 21:27:50,029 - INFO - validation loss: 2.2961
+2025-10-26 21:27:50,029 - INFO - validation accuracy: 9.9004%
+2025-10-26 21:27:50,394 - INFO - best accuracy: 9.9004% | best loss: 66.5871
+2025-10-26 21:27:50,394 - INFO - saved to model registry!
+2025-10-26 21:27:50,394 - INFO - --------------------------------------------------
+2025-10-26 21:27:50,394 - INFO - epoch 6 started
+2025-10-26 21:27:53,929 - INFO - training loss: 2.2951
+2025-10-26 21:27:54,425 - INFO - validation loss: 2.2962
+2025-10-26 21:27:54,425 - INFO - validation accuracy: 9.7760%
+2025-10-26 21:27:54,425 - INFO - --------------------------------------------------
+2025-10-26 21:27:54,425 - INFO - epoch 7 started
+2025-10-26 21:27:57,879 - INFO - training loss: 2.2951
+2025-10-26 21:27:58,388 - INFO - validation loss: 2.2969
+2025-10-26 21:27:58,388 - INFO - validation accuracy: 9.5916%
+2025-10-26 21:27:58,389 - INFO - --------------------------------------------------
+2025-10-26 21:27:58,389 - INFO - epoch 8 started
+2025-10-26 21:28:01,916 - INFO - training loss: 2.2950
+2025-10-26 21:28:02,439 - INFO - validation loss: 2.2966
+2025-10-26 21:28:02,439 - INFO - validation accuracy: 10.2968%
+2025-10-26 21:28:03,110 - INFO - best accuracy: 10.2968% | best loss: 66.6026
+2025-10-26 21:28:03,111 - INFO - saved to model registry!
+2025-10-26 21:28:03,111 - INFO - --------------------------------------------------
+2025-10-26 21:28:03,111 - INFO - epoch 9 started
+2025-10-26 21:28:06,614 - INFO - training loss: 2.2948
+2025-10-26 21:28:07,193 - INFO - validation loss: 2.2952
+2025-10-26 21:28:07,194 - INFO - validation accuracy: 10.3199%
+2025-10-26 21:28:07,799 - INFO - best accuracy: 10.3199% | best loss: 66.5597
+2025-10-26 21:28:07,800 - INFO - saved to model registry!
+2025-10-26 21:28:07,800 - INFO - --------------------------------------------------
+2025-10-26 21:28:07,800 - INFO - epoch 10 started
+2025-10-26 21:28:11,327 - INFO - training loss: 2.2944
+2025-10-26 21:28:11,791 - INFO - validation loss: 2.2952
+2025-10-26 21:28:11,791 - INFO - validation accuracy: 10.6425%
+2025-10-26 21:28:12,166 - INFO - best accuracy: 10.6425% | best loss: 66.5600
+2025-10-26 21:28:12,167 - INFO - saved to model registry!
+2025-10-26 21:28:12,167 - INFO - --------------------------------------------------
+2025-10-26 21:28:12,167 - INFO - epoch 11 started
+2025-10-26 21:28:15,748 - INFO - training loss: 2.2944
+2025-10-26 21:28:16,230 - INFO - validation loss: 2.2951
+2025-10-26 21:28:16,230 - INFO - validation accuracy: 10.4213%
+2025-10-26 21:28:16,862 - INFO - best accuracy: 10.4213% | best loss: 66.5586
+2025-10-26 21:28:16,862 - INFO - saved to model registry!
+2025-10-26 21:28:16,862 - INFO - --------------------------------------------------
+2025-10-26 21:28:16,862 - INFO - epoch 12 started
+2025-10-26 21:28:18,385 - INFO - --------------------------------------------------
+2025-10-26 21:28:18,385 - INFO - pytorch version: 2.9.0+cu128
+2025-10-26 21:28:18,386 - INFO - numpy version: 2.3.4
+2025-10-26 21:28:18,386 - INFO - pandas version: 2.3.3
+2025-10-26 21:28:18,386 - INFO - matplotlib version: 3.10.7
+2025-10-26 21:28:18,386 - INFO - pillow version: 12.0.0
+2025-10-26 21:28:18,386 - INFO - --------------------------------------------------
+2025-10-26 21:28:18,434 - INFO - CUDA Is Available : True
+2025-10-26 21:28:18,434 - INFO - --------------------------------------------------
+2025-10-26 21:28:18,485 - INFO - Original size: 10000, Filtered size: 9040
+2025-10-26 21:28:18,532 - INFO - Original size: 10000, Filtered size: 9040
+2025-10-26 21:28:18,573 - INFO - Original size: 10000, Filtered size: 9040
+2025-10-26 21:28:19,301 - INFO - --------------------------------------------------
+2025-10-26 21:28:19,302 - INFO - epoch 1 started
+2025-10-26 21:28:20,519 - INFO - training loss: 2.2944
+2025-10-26 21:28:21,063 - INFO - validation loss: 2.2951
+2025-10-26 21:28:21,063 - INFO - validation accuracy: 10.2738%
+2025-10-26 21:28:21,918 - INFO - best accuracy: 10.2738% | best loss: 66.5575
+2025-10-26 21:28:21,918 - INFO - saved to model registry!
+2025-10-26 21:28:21,919 - INFO - --------------------------------------------------
+2025-10-26 21:28:21,919 - INFO - epoch 13 started
+2025-10-26 21:28:26,481 - INFO - training loss: 2.2994
+2025-10-26 21:28:27,921 - INFO - training loss: 2.2943
+2025-10-26 21:28:28,082 - INFO - validation loss: 2.2977
+2025-10-26 21:28:28,083 - INFO - validation accuracy: 9.8912%
+2025-10-26 21:28:28,426 - INFO - validation loss: 2.2951
+2025-10-26 21:28:28,427 - INFO - validation accuracy: 10.3890%
+2025-10-26 21:28:28,470 - INFO - best accuracy: 9.8912% | best loss: 66.6322
+2025-10-26 21:28:28,470 - INFO - saved to model registry!
+2025-10-26 21:28:28,470 - INFO - --------------------------------------------------
+2025-10-26 21:28:28,472 - INFO - epoch 2 started
+2025-10-26 21:28:29,231 - INFO - best accuracy: 10.3890% | best loss: 66.5569
+2025-10-26 21:28:29,231 - INFO - saved to model registry!
+2025-10-26 21:28:29,232 - INFO - --------------------------------------------------
+2025-10-26 21:28:29,232 - INFO - epoch 14 started
+2025-10-26 21:28:34,845 - INFO - training loss: 2.2963
+2025-10-26 21:28:35,660 - INFO - validation loss: 2.2972
+2025-10-26 21:28:35,660 - INFO - validation accuracy: 9.7622%
+2025-10-26 21:28:35,815 - INFO - training loss: 2.2943
+2025-10-26 21:28:36,003 - INFO - best accuracy: 9.7622% | best loss: 66.6191
+2025-10-26 21:28:36,003 - INFO - saved to model registry!
+2025-10-26 21:28:36,004 - INFO - --------------------------------------------------
+2025-10-26 21:28:36,004 - INFO - epoch 3 started
+2025-10-26 21:28:36,468 - INFO - validation loss: 2.2951
+2025-10-26 21:28:36,468 - INFO - validation accuracy: 10.4812%
+2025-10-26 21:28:37,342 - INFO - best accuracy: 10.4812% | best loss: 66.5566
+2025-10-26 21:28:37,342 - INFO - saved to model registry!
+2025-10-26 21:28:37,342 - INFO - --------------------------------------------------
+2025-10-26 21:28:37,343 - INFO - epoch 15 started
+2025-10-26 21:28:41,989 - INFO - training loss: 2.2953
+2025-10-26 21:28:42,844 - INFO - validation loss: 2.2967
+2025-10-26 21:28:42,845 - INFO - validation accuracy: 9.6285%
+2025-10-26 21:28:43,217 - INFO - best accuracy: 9.6285% | best loss: 66.6048
+2025-10-26 21:28:43,218 - INFO - saved to model registry!
+2025-10-26 21:28:43,218 - INFO - --------------------------------------------------
+2025-10-26 21:28:43,218 - INFO - epoch 4 started
+2025-10-26 21:28:43,616 - INFO - training loss: 2.2943
+2025-10-26 21:28:44,322 - INFO - validation loss: 2.2950
+2025-10-26 21:28:44,323 - INFO - validation accuracy: 10.5365%
+2025-10-26 21:28:45,360 - INFO - best accuracy: 10.5365% | best loss: 66.5559
+2025-10-26 21:28:45,361 - INFO - saved to model registry!
+2025-10-26 21:28:45,361 - INFO - --------------------------------------------------
+2025-10-26 21:28:45,361 - INFO - epoch 16 started
+2025-10-26 21:28:49,292 - INFO - training loss: 2.2948
+2025-10-26 21:28:50,091 - INFO - validation loss: 2.2964
+2025-10-26 21:28:50,091 - INFO - validation accuracy: 9.8129%
+2025-10-26 21:28:50,447 - INFO - best accuracy: 9.8129% | best loss: 66.5962
+2025-10-26 21:28:50,448 - INFO - saved to model registry!
+2025-10-26 21:28:50,448 - INFO - --------------------------------------------------
+2025-10-26 21:28:50,448 - INFO - epoch 5 started
+2025-10-26 21:28:51,487 - INFO - training loss: 2.2942
+2025-10-26 21:28:52,228 - INFO - validation loss: 2.2950
+2025-10-26 21:28:52,228 - INFO - validation accuracy: 10.5365%
+2025-10-26 21:28:53,069 - INFO - best accuracy: 10.5365% | best loss: 66.5551
+2025-10-26 21:28:53,070 - INFO - saved to model registry!
+2025-10-26 21:28:53,070 - INFO - --------------------------------------------------
+2025-10-26 21:28:53,070 - INFO - epoch 17 started
+2025-10-26 21:28:56,130 - INFO - training loss: 2.2947
+2025-10-26 21:28:56,988 - INFO - validation loss: 2.2964
+2025-10-26 21:28:56,988 - INFO - validation accuracy: 9.8221%
+2025-10-26 21:28:57,389 - INFO - best accuracy: 9.8221% | best loss: 66.5961
+2025-10-26 21:28:57,389 - INFO - saved to model registry!
+2025-10-26 21:28:57,389 - INFO - --------------------------------------------------
+2025-10-26 21:28:57,390 - INFO - epoch 6 started
+2025-10-26 21:28:59,176 - INFO - training loss: 2.2942
+2025-10-26 21:28:59,864 - INFO - validation loss: 2.2950
+2025-10-26 21:28:59,865 - INFO - validation accuracy: 10.3521%
+2025-10-26 21:28:59,865 - INFO - --------------------------------------------------
+2025-10-26 21:28:59,865 - INFO - epoch 18 started
+2025-10-26 21:29:03,909 - INFO - training loss: 2.2945
+2025-10-26 21:29:04,766 - INFO - validation loss: 2.2969
+2025-10-26 21:29:04,766 - INFO - validation accuracy: 9.7760%
+2025-10-26 21:29:04,766 - INFO - --------------------------------------------------
+2025-10-26 21:29:04,767 - INFO - epoch 7 started
+2025-10-26 21:29:06,322 - INFO - training loss: 2.2942
+2025-10-26 21:29:06,981 - INFO - validation loss: 2.2950
+2025-10-26 21:29:06,981 - INFO - validation accuracy: 10.2646%
+2025-10-26 21:29:06,982 - INFO - --------------------------------------------------
+2025-10-26 21:29:06,982 - INFO - epoch 19 started
+2025-10-26 21:29:11,293 - INFO - training loss: 2.2947
+2025-10-26 21:29:12,134 - INFO - validation loss: 2.2961
+2025-10-26 21:29:12,134 - INFO - validation accuracy: 9.7760%
+2025-10-26 21:29:12,459 - INFO - best accuracy: 9.7760% | best loss: 66.5883
+2025-10-26 21:29:12,460 - INFO - saved to model registry!
+2025-10-26 21:29:12,460 - INFO - --------------------------------------------------
+2025-10-26 21:29:12,460 - INFO - epoch 8 started
+2025-10-26 21:29:13,259 - INFO - training loss: 2.2942
+2025-10-26 21:29:14,101 - INFO - validation loss: 2.2950
+2025-10-26 21:29:14,101 - INFO - validation accuracy: 10.2507%
+2025-10-26 21:29:14,974 - INFO - best accuracy: 10.2507% | best loss: 66.5538
+2025-10-26 21:29:14,975 - INFO - saved to model registry!
+2025-10-26 21:29:14,975 - INFO - --------------------------------------------------
+2025-10-26 21:29:14,975 - INFO - epoch 20 started
+2025-10-26 21:29:17,911 - INFO - training loss: 2.2943
+2025-10-26 21:29:18,769 - INFO - validation loss: 2.2959
+2025-10-26 21:29:18,769 - INFO - validation accuracy: 9.7483%
+2025-10-26 21:29:19,237 - INFO - best accuracy: 9.7483% | best loss: 66.5800
+2025-10-26 21:29:19,237 - INFO - saved to model registry!
+2025-10-26 21:29:19,237 - INFO - --------------------------------------------------
+2025-10-26 21:29:19,237 - INFO - epoch 9 started
+2025-10-26 21:29:21,067 - INFO - training loss: 2.2941
+2025-10-26 21:29:21,858 - INFO - validation loss: 2.2950
+2025-10-26 21:29:21,859 - INFO - validation accuracy: 10.3890%
+2025-10-26 21:29:22,680 - INFO - best accuracy: 10.3890% | best loss: 66.5536
+2025-10-26 21:29:22,680 - INFO - saved to model registry!
+2025-10-26 21:29:22,681 - INFO - --------------------------------------------------
+2025-10-26 21:29:22,681 - INFO - epoch 21 started
+2025-10-26 21:29:24,963 - INFO - training loss: 2.2947
+2025-10-26 21:29:25,881 - INFO - validation loss: 2.2956
+2025-10-26 21:29:25,881 - INFO - validation accuracy: 9.8313%
+2025-10-26 21:29:26,265 - INFO - best accuracy: 9.8313% | best loss: 66.5718
+2025-10-26 21:29:26,265 - INFO - saved to model registry!
+2025-10-26 21:29:26,266 - INFO - --------------------------------------------------
+2025-10-26 21:29:26,266 - INFO - epoch 10 started
+2025-10-26 21:29:28,812 - INFO - training loss: 2.2941
+2025-10-26 21:29:29,564 - INFO - validation loss: 2.2949
+2025-10-26 21:29:29,565 - INFO - validation accuracy: 10.3890%
+2025-10-26 21:29:30,368 - INFO - best accuracy: 10.3890% | best loss: 66.5533
+2025-10-26 21:29:30,368 - INFO - saved to model registry!
+2025-10-26 21:29:30,368 - INFO - --------------------------------------------------
+2025-10-26 21:29:30,369 - INFO - epoch 22 started
+2025-10-26 21:29:31,925 - INFO - training loss: 2.2940
+2025-10-26 21:29:32,736 - INFO - validation loss: 2.2951
+2025-10-26 21:29:32,736 - INFO - validation accuracy: 9.8175%
+2025-10-26 21:29:33,094 - INFO - best accuracy: 9.8175% | best loss: 66.5574
+2025-10-26 21:29:33,094 - INFO - saved to model registry!
+2025-10-26 21:29:33,094 - INFO - --------------------------------------------------
+2025-10-26 21:29:33,094 - INFO - epoch 11 started
+2025-10-26 21:29:36,619 - INFO - training loss: 2.2941
+2025-10-26 21:29:37,282 - INFO - validation loss: 2.2949
+2025-10-26 21:29:37,282 - INFO - validation accuracy: 10.3429%
+2025-10-26 21:29:38,093 - INFO - best accuracy: 10.3429% | best loss: 66.5528
+2025-10-26 21:29:38,093 - INFO - saved to model registry!
+2025-10-26 21:29:38,093 - INFO - --------------------------------------------------
+2025-10-26 21:29:38,094 - INFO - epoch 23 started
+2025-10-26 21:29:38,877 - INFO - training loss: 2.2940
+2025-10-26 21:29:39,709 - INFO - validation loss: 2.2958
+2025-10-26 21:29:39,710 - INFO - validation accuracy: 9.8544%
+2025-10-26 21:29:40,064 - INFO - best accuracy: 9.8544% | best loss: 66.5777
+2025-10-26 21:29:40,064 - INFO - saved to model registry!
+2025-10-26 21:29:40,064 - INFO - --------------------------------------------------
+2025-10-26 21:29:40,065 - INFO - epoch 12 started
+2025-10-26 21:29:44,166 - INFO - training loss: 2.2941
+2025-10-26 21:29:44,800 - INFO - validation loss: 2.2949
+2025-10-26 21:29:44,800 - INFO - validation accuracy: 10.3429%
+2025-10-26 21:29:44,800 - INFO - --------------------------------------------------
+2025-10-26 21:29:44,800 - INFO - epoch 24 started
+2025-10-26 21:29:46,566 - INFO - training loss: 2.2938
+2025-10-26 21:29:47,370 - INFO - validation loss: 2.2949
+2025-10-26 21:29:47,370 - INFO - validation accuracy: 10.1401%
+2025-10-26 21:29:47,675 - INFO - best accuracy: 10.1401% | best loss: 66.5534
+2025-10-26 21:29:47,676 - INFO - saved to model registry!
+2025-10-26 21:29:47,676 - INFO - --------------------------------------------------
+2025-10-26 21:29:47,676 - INFO - epoch 13 started
+2025-10-26 21:29:51,035 - INFO - training loss: 2.2941
+2025-10-26 21:29:51,684 - INFO - validation loss: 2.2949
+2025-10-26 21:29:51,684 - INFO - validation accuracy: 10.3890%
+2025-10-26 21:29:52,449 - INFO - best accuracy: 10.3890% | best loss: 66.5517
+2025-10-26 21:29:52,450 - INFO - saved to model registry!
+2025-10-26 21:29:52,450 - INFO - --------------------------------------------------
+2025-10-26 21:29:52,450 - INFO - epoch 25 started
+2025-10-26 21:29:53,494 - INFO - training loss: 2.2941
+2025-10-26 21:29:54,271 - INFO - validation loss: 2.2959
+2025-10-26 21:29:54,271 - INFO - validation accuracy: 9.6654%
+2025-10-26 21:29:54,271 - INFO - --------------------------------------------------
+2025-10-26 21:29:54,271 - INFO - epoch 14 started
+2025-10-26 21:29:59,017 - INFO - training loss: 2.2940
+2025-10-26 21:29:59,674 - INFO - validation loss: 2.2949
+2025-10-26 21:29:59,674 - INFO - validation accuracy: 10.3429%
+2025-10-26 21:29:59,674 - INFO - --------------------------------------------------
+2025-10-26 21:29:59,674 - INFO - epoch 26 started
+2025-10-26 21:30:00,693 - INFO - training loss: 2.2943
+2025-10-26 21:30:01,463 - INFO - validation loss: 2.2948
+2025-10-26 21:30:01,463 - INFO - validation accuracy: 10.3614%
+2025-10-26 21:30:01,813 - INFO - best accuracy: 10.3614% | best loss: 66.5491
+2025-10-26 21:30:01,813 - INFO - saved to model registry!
+2025-10-26 21:30:01,813 - INFO - --------------------------------------------------
+2025-10-26 21:30:01,814 - INFO - epoch 15 started
+2025-10-26 21:30:05,868 - INFO - training loss: 2.2940
+2025-10-26 21:30:06,524 - INFO - validation loss: 2.2949
+2025-10-26 21:30:06,524 - INFO - validation accuracy: 10.3429%
+2025-10-26 21:30:06,524 - INFO - --------------------------------------------------
+2025-10-26 21:30:06,525 - INFO - epoch 27 started
+2025-10-26 21:30:08,357 - INFO - training loss: 2.2942
+2025-10-26 21:30:09,144 - INFO - validation loss: 2.2949
+2025-10-26 21:30:09,144 - INFO - validation accuracy: 10.1401%
+2025-10-26 21:30:09,144 - INFO - --------------------------------------------------
+2025-10-26 21:30:09,144 - INFO - epoch 16 started
+2025-10-26 21:30:13,029 - INFO - training loss: 2.2940
+2025-10-26 21:30:13,731 - INFO - validation loss: 2.2949
+2025-10-26 21:30:13,731 - INFO - validation accuracy: 10.4904%
+2025-10-26 21:30:14,492 - INFO - best accuracy: 10.4904% | best loss: 66.5516
+2025-10-26 21:30:14,492 - INFO - saved to model registry!
+2025-10-26 21:30:14,492 - INFO - --------------------------------------------------
+2025-10-26 21:30:14,492 - INFO - epoch 28 started
+2025-10-26 21:30:14,848 - INFO - training loss: 2.2944
+2025-10-26 21:30:15,833 - INFO - validation loss: 2.2949
+2025-10-26 21:30:15,834 - INFO - validation accuracy: 10.1586%
+2025-10-26 21:30:15,834 - INFO - --------------------------------------------------
+2025-10-26 21:30:15,834 - INFO - epoch 17 started
+2025-10-26 21:30:20,940 - INFO - training loss: 2.2940
+2025-10-26 21:30:21,723 - INFO - validation loss: 2.2949
+2025-10-26 21:30:21,723 - INFO - validation accuracy: 10.3429%
+2025-10-26 21:30:21,724 - INFO - --------------------------------------------------
+2025-10-26 21:30:21,724 - INFO - epoch 29 started
+2025-10-26 21:30:22,316 - INFO - training loss: 2.2943
+2025-10-26 21:30:23,153 - INFO - validation loss: 2.2949
+2025-10-26 21:30:23,153 - INFO - validation accuracy: 10.1586%
+2025-10-26 21:30:23,153 - INFO - --------------------------------------------------
+2025-10-26 21:30:23,153 - INFO - epoch 18 started
+2025-10-26 21:30:28,175 - INFO - training loss: 2.2940
+2025-10-26 21:30:28,994 - INFO - validation loss: 2.2949
+2025-10-26 21:30:28,994 - INFO - validation accuracy: 10.3429%
+2025-10-26 21:30:28,995 - INFO - --------------------------------------------------
+2025-10-26 21:30:28,995 - INFO - epoch 30 started
+2025-10-26 21:30:29,505 - INFO - training loss: 2.2942
+2025-10-26 21:30:30,354 - INFO - validation loss: 2.2948
+2025-10-26 21:30:30,354 - INFO - validation accuracy: 10.1632%
+2025-10-26 21:30:30,354 - INFO - --------------------------------------------------
+2025-10-26 21:30:30,354 - INFO - epoch 19 started
+2025-10-26 21:30:35,558 - INFO - training loss: 2.2939
+2025-10-26 21:30:36,322 - INFO - validation loss: 2.2949
+2025-10-26 21:30:36,322 - INFO - validation accuracy: 10.3429%
+2025-10-26 21:30:36,687 - INFO - training loss: 2.2942
+2025-10-26 21:30:37,090 - INFO - best accuracy: 10.3429% | best loss: 66.5513
+2025-10-26 21:30:37,091 - INFO - saved to model registry!
+2025-10-26 21:30:37,091 - INFO - --------------------------------------------------
+2025-10-26 21:30:37,091 - INFO - epoch 31 started
+2025-10-26 21:30:37,331 - INFO - validation loss: 2.2948
+2025-10-26 21:30:37,331 - INFO - validation accuracy: 10.1632%
+2025-10-26 21:30:37,331 - INFO - --------------------------------------------------
+2025-10-26 21:30:37,331 - INFO - epoch 20 started
+2025-10-26 21:30:43,877 - INFO - training loss: 2.2939
+2025-10-26 21:30:44,298 - INFO - training loss: 2.2942
+2025-10-26 21:30:44,410 - INFO - validation loss: 2.2949
+2025-10-26 21:30:44,411 - INFO - validation accuracy: 10.3429%
+2025-10-26 21:30:44,840 - INFO - validation loss: 2.2948
+2025-10-26 21:30:44,841 - INFO - validation accuracy: 10.1770%
+2025-10-26 21:30:44,841 - INFO - --------------------------------------------------
+2025-10-26 21:30:44,841 - INFO - epoch 21 started
+2025-10-26 21:30:45,278 - INFO - best accuracy: 10.3429% | best loss: 66.5512
+2025-10-26 21:30:45,278 - INFO - saved to model registry!
+2025-10-26 21:30:45,278 - INFO - --------------------------------------------------
+2025-10-26 21:30:45,278 - INFO - epoch 32 started
+2025-10-26 21:30:51,431 - INFO - training loss: 2.2942
+2025-10-26 21:30:52,195 - INFO - validation loss: 2.2948
+2025-10-26 21:30:52,195 - INFO - validation accuracy: 10.1770%
+2025-10-26 21:30:52,195 - INFO - --------------------------------------------------
+2025-10-26 21:30:52,195 - INFO - epoch 22 started
+2025-10-26 21:30:52,210 - INFO - training loss: 2.2939
+2025-10-26 21:30:53,156 - INFO - validation loss: 2.2949
+2025-10-26 21:30:53,156 - INFO - validation accuracy: 10.3429%
+2025-10-26 21:30:54,039 - INFO - best accuracy: 10.3429% | best loss: 66.5511
+2025-10-26 21:30:54,039 - INFO - saved to model registry!
+2025-10-26 21:30:54,039 - INFO - --------------------------------------------------
+2025-10-26 21:30:54,039 - INFO - epoch 33 started
+2025-10-26 21:30:57,781 - INFO - training loss: 2.2941
+2025-10-26 21:30:58,572 - INFO - validation loss: 2.2953
+2025-10-26 21:30:58,573 - INFO - validation accuracy: 9.8728%
+2025-10-26 21:30:58,573 - INFO - --------------------------------------------------
+2025-10-26 21:30:58,573 - INFO - epoch 23 started
+2025-10-26 21:31:00,679 - INFO - training loss: 2.2939
+2025-10-26 21:31:01,382 - INFO - validation loss: 2.2948
+2025-10-26 21:31:01,382 - INFO - validation accuracy: 9.9742%
+2025-10-26 21:31:02,187 - INFO - best accuracy: 9.9742% | best loss: 66.5504
+2025-10-26 21:31:02,187 - INFO - saved to model registry!
+2025-10-26 21:31:02,188 - INFO - --------------------------------------------------
+2025-10-26 21:31:02,188 - INFO - epoch 34 started
+2025-10-26 21:31:04,252 - INFO - training loss: 2.2941
+2025-10-26 21:31:05,063 - INFO - validation loss: 2.2948
+2025-10-26 21:31:05,064 - INFO - validation accuracy: 9.9834%
+2025-10-26 21:31:05,431 - INFO - best accuracy: 9.9834% | best loss: 66.5481
+2025-10-26 21:31:05,431 - INFO - saved to model registry!
+2025-10-26 21:31:05,431 - INFO - --------------------------------------------------
+2025-10-26 21:31:05,431 - INFO - epoch 24 started
+2025-10-26 21:31:08,274 - INFO - training loss: 2.2939
+2025-10-26 21:31:08,951 - INFO - validation loss: 2.2949
+2025-10-26 21:31:08,951 - INFO - validation accuracy: 10.2046%
+2025-10-26 21:31:09,695 - INFO - best accuracy: 10.2046% | best loss: 66.5507
+2025-10-26 21:31:09,696 - INFO - saved to model registry!
+2025-10-26 21:31:09,696 - INFO - --------------------------------------------------
+2025-10-26 21:31:09,696 - INFO - epoch 35 started
+2025-10-26 21:31:11,236 - INFO - training loss: 2.2941
+2025-10-26 21:31:12,045 - INFO - validation loss: 2.2948
+2025-10-26 21:31:12,045 - INFO - validation accuracy: 10.1770%
+2025-10-26 21:31:12,383 - INFO - best accuracy: 10.1770% | best loss: 66.5489
+2025-10-26 21:31:12,383 - INFO - saved to model registry!
+2025-10-26 21:31:12,383 - INFO - --------------------------------------------------
+2025-10-26 21:31:12,383 - INFO - epoch 25 started
+2025-10-26 21:31:15,770 - INFO - training loss: 2.2939
+2025-10-26 21:31:16,442 - INFO - validation loss: 2.2948
+2025-10-26 21:31:16,442 - INFO - validation accuracy: 10.3429%
+2025-10-26 21:31:17,249 - INFO - best accuracy: 10.3429% | best loss: 66.5506
+2025-10-26 21:31:17,250 - INFO - saved to model registry!
+2025-10-26 21:31:17,250 - INFO - --------------------------------------------------
+2025-10-26 21:31:17,250 - INFO - epoch 36 started
+2025-10-26 21:31:18,185 - INFO - training loss: 2.2941
+2025-10-26 21:31:18,989 - INFO - validation loss: 2.2948
+2025-10-26 21:31:18,990 - INFO - validation accuracy: 10.1770%
+2025-10-26 21:31:18,990 - INFO - --------------------------------------------------
+2025-10-26 21:31:18,990 - INFO - epoch 26 started
+2025-10-26 21:31:23,849 - INFO - training loss: 2.2938
+2025-10-26 21:31:24,541 - INFO - validation loss: 2.2948
+2025-10-26 21:31:24,542 - INFO - validation accuracy: 10.3429%
+2025-10-26 21:31:25,093 - INFO - training loss: 2.2941
+2025-10-26 21:31:25,316 - INFO - best accuracy: 10.3429% | best loss: 66.5505
+2025-10-26 21:31:25,316 - INFO - saved to model registry!
+2025-10-26 21:31:25,317 - INFO - --------------------------------------------------
+2025-10-26 21:31:25,317 - INFO - epoch 37 started
+2025-10-26 21:31:25,901 - INFO - validation loss: 2.2948
+2025-10-26 21:31:25,901 - INFO - validation accuracy: 10.1770%
+2025-10-26 21:31:25,901 - INFO - --------------------------------------------------
+2025-10-26 21:31:25,902 - INFO - epoch 27 started
+2025-10-26 21:31:31,929 - INFO - training loss: 2.2938
+2025-10-26 21:31:32,522 - INFO - validation loss: 2.2948
+2025-10-26 21:31:32,522 - INFO - validation accuracy: 10.3429%
+2025-10-26 21:31:32,679 - INFO - training loss: 2.2940
+2025-10-26 21:31:33,218 - INFO - validation loss: 2.2948
+2025-10-26 21:31:33,218 - INFO - validation accuracy: 10.1862%
+2025-10-26 21:31:33,369 - INFO - best accuracy: 10.3429% | best loss: 66.5505
+2025-10-26 21:31:33,369 - INFO - saved to model registry!
+2025-10-26 21:31:33,369 - INFO - --------------------------------------------------
+2025-10-26 21:31:33,369 - INFO - epoch 38 started
+2025-10-26 21:31:33,679 - INFO - best accuracy: 10.1862% | best loss: 66.5491
+2025-10-26 21:31:33,680 - INFO - saved to model registry!
+2025-10-26 21:31:33,680 - INFO - --------------------------------------------------
+2025-10-26 21:31:33,680 - INFO - epoch 28 started
+2025-10-26 21:31:40,164 - INFO - training loss: 2.2938
+2025-10-26 21:31:40,603 - INFO - training loss: 2.2940
+2025-10-26 21:31:40,690 - INFO - validation loss: 2.2948
+2025-10-26 21:31:40,691 - INFO - validation accuracy: 10.3429%
+2025-10-26 21:31:41,137 - INFO - validation loss: 2.2946
+2025-10-26 21:31:41,137 - INFO - validation accuracy: 10.4167%
+2025-10-26 21:31:41,353 - INFO - best accuracy: 10.3429% | best loss: 66.5504
+2025-10-26 21:31:41,353 - INFO - saved to model registry!
+2025-10-26 21:31:41,353 - INFO - --------------------------------------------------
+2025-10-26 21:31:41,353 - INFO - epoch 39 started
+2025-10-26 21:31:41,423 - INFO - best accuracy: 10.4167% | best loss: 66.5445
+2025-10-26 21:31:41,424 - INFO - saved to model registry!
+2025-10-26 21:31:41,424 - INFO - --------------------------------------------------
+2025-10-26 21:31:41,424 - INFO - epoch 29 started
+2025-10-26 21:31:48,464 - INFO - training loss: 2.2938
+2025-10-26 21:31:48,556 - INFO - training loss: 2.2939
+2025-10-26 21:31:49,127 - INFO - validation loss: 2.2948
+2025-10-26 21:31:49,127 - INFO - validation accuracy: 10.3429%
+2025-10-26 21:31:49,255 - INFO - validation loss: 2.2950
+2025-10-26 21:31:49,255 - INFO - validation accuracy: 10.1954%
+2025-10-26 21:31:49,255 - INFO - --------------------------------------------------
+2025-10-26 21:31:49,256 - INFO - epoch 30 started
+2025-10-26 21:31:49,903 - INFO - best accuracy: 10.3429% | best loss: 66.5497
+2025-10-26 21:31:49,903 - INFO - saved to model registry!
+2025-10-26 21:31:49,903 - INFO - --------------------------------------------------
+2025-10-26 21:31:49,903 - INFO - epoch 40 started
+2025-10-26 21:31:55,741 - INFO - training loss: 2.2938
+2025-10-26 21:31:56,505 - INFO - validation loss: 2.2952
+2025-10-26 21:31:56,506 - INFO - validation accuracy: 9.8682%
+2025-10-26 21:31:56,506 - INFO - --------------------------------------------------
+2025-10-26 21:31:56,506 - INFO - epoch 31 started
+2025-10-26 21:31:56,649 - INFO - training loss: 2.2938
+2025-10-26 21:31:57,512 - INFO - validation loss: 2.2948
+2025-10-26 21:31:57,512 - INFO - validation accuracy: 10.2277%
+2025-10-26 21:31:58,309 - INFO - best accuracy: 10.2277% | best loss: 66.5485
+2025-10-26 21:31:58,309 - INFO - saved to model registry!
+2025-10-26 21:31:58,309 - INFO - --------------------------------------------------
+2025-10-26 21:31:58,309 - INFO - epoch 41 started
+2025-10-26 21:32:02,190 - INFO - training loss: 2.2941
+2025-10-26 21:32:02,974 - INFO - validation loss: 2.2948
+2025-10-26 21:32:02,974 - INFO - validation accuracy: 10.1217%
+2025-10-26 21:32:02,974 - INFO - --------------------------------------------------
+2025-10-26 21:32:02,974 - INFO - epoch 32 started
+2025-10-26 21:32:04,844 - INFO - training loss: 2.2938
+2025-10-26 21:32:05,623 - INFO - validation loss: 2.2948
+2025-10-26 21:32:05,624 - INFO - validation accuracy: 10.3429%
+2025-10-26 21:32:06,426 - INFO - best accuracy: 10.3429% | best loss: 66.5498
+2025-10-26 21:32:06,426 - INFO - saved to model registry!
+2025-10-26 21:32:06,426 - INFO - --------------------------------------------------
+2025-10-26 21:32:06,426 - INFO - epoch 42 started
+2025-10-26 21:32:08,828 - INFO - training loss: 2.2940
+2025-10-26 21:32:09,622 - INFO - validation loss: 2.2947
+2025-10-26 21:32:09,622 - INFO - validation accuracy: 10.1263%
+2025-10-26 21:32:09,623 - INFO - --------------------------------------------------
+2025-10-26 21:32:09,623 - INFO - epoch 33 started
+2025-10-26 21:32:12,994 - INFO - training loss: 2.2938
+2025-10-26 21:32:13,742 - INFO - validation loss: 2.2948
+2025-10-26 21:32:13,743 - INFO - validation accuracy: 10.3429%
+2025-10-26 21:32:13,743 - INFO - --------------------------------------------------
+2025-10-26 21:32:13,743 - INFO - epoch 43 started
+2025-10-26 21:32:16,288 - INFO - training loss: 2.2939
+2025-10-26 21:32:17,164 - INFO - validation loss: 2.2947
+2025-10-26 21:32:17,164 - INFO - validation accuracy: 10.3153%
+2025-10-26 21:32:17,165 - INFO - --------------------------------------------------
+2025-10-26 21:32:17,165 - INFO - epoch 34 started
+2025-10-26 21:32:20,199 - INFO - training loss: 2.2938
+2025-10-26 21:32:20,937 - INFO - validation loss: 2.2948
+2025-10-26 21:32:20,937 - INFO - validation accuracy: 10.3429%
+2025-10-26 21:32:21,721 - INFO - best accuracy: 10.3429% | best loss: 66.5493
+2025-10-26 21:32:21,721 - INFO - saved to model registry!
+2025-10-26 21:32:21,722 - INFO - --------------------------------------------------
+2025-10-26 21:32:21,722 - INFO - epoch 44 started
+2025-10-26 21:32:22,850 - INFO - training loss: 2.2938
+2025-10-26 21:32:23,640 - INFO - validation loss: 2.2945
+2025-10-26 21:32:23,640 - INFO - validation accuracy: 10.2231%
+2025-10-26 21:32:23,977 - INFO - best accuracy: 10.2231% | best loss: 66.5396
+2025-10-26 21:32:23,977 - INFO - saved to model registry!
+2025-10-26 21:32:23,977 - INFO - --------------------------------------------------
+2025-10-26 21:32:23,978 - INFO - epoch 35 started
+2025-10-26 21:32:27,866 - INFO - training loss: 2.2938
+2025-10-26 21:32:28,499 - INFO - validation loss: 2.2948
+2025-10-26 21:32:28,499 - INFO - validation accuracy: 10.3429%
+2025-10-26 21:32:28,499 - INFO - --------------------------------------------------
+2025-10-26 21:32:28,499 - INFO - epoch 45 started
+2025-10-26 21:32:30,485 - INFO - training loss: 2.2937
+2025-10-26 21:32:31,272 - INFO - validation loss: 2.2943
+2025-10-26 21:32:31,272 - INFO - validation accuracy: 10.0295%
+2025-10-26 21:32:31,580 - INFO - best accuracy: 10.0295% | best loss: 66.5351
+2025-10-26 21:32:31,581 - INFO - saved to model registry!
+2025-10-26 21:32:31,581 - INFO - --------------------------------------------------
+2025-10-26 21:32:31,581 - INFO - epoch 36 started
+2025-10-26 21:32:34,738 - INFO - training loss: 2.2938
+2025-10-26 21:32:35,385 - INFO - validation loss: 2.2948
+2025-10-26 21:32:35,386 - INFO - validation accuracy: 10.3060%
+2025-10-26 21:32:36,126 - INFO - best accuracy: 10.3060% | best loss: 66.5490
+2025-10-26 21:32:36,127 - INFO - saved to model registry!
+2025-10-26 21:32:36,127 - INFO - --------------------------------------------------
+2025-10-26 21:32:36,127 - INFO - epoch 46 started
+2025-10-26 21:32:37,324 - INFO - training loss: 2.2932
+2025-10-26 21:32:38,090 - INFO - validation loss: 2.2985
+2025-10-26 21:32:38,090 - INFO - validation accuracy: 10.0433%
+2025-10-26 21:32:38,424 - INFO - best accuracy: 10.0433% | best loss: 66.6565
+2025-10-26 21:32:38,424 - INFO - saved to model registry!
+2025-10-26 21:32:38,424 - INFO - --------------------------------------------------
+2025-10-26 21:32:38,424 - INFO - epoch 37 started
+2025-10-26 21:32:42,294 - INFO - training loss: 2.2937
+2025-10-26 21:32:42,937 - INFO - validation loss: 2.2948
+2025-10-26 21:32:42,937 - INFO - validation accuracy: 10.3429%
+2025-10-26 21:32:43,680 - INFO - best accuracy: 10.3429% | best loss: 66.5494
+2025-10-26 21:32:43,680 - INFO - saved to model registry!
+2025-10-26 21:32:43,680 - INFO - --------------------------------------------------
+2025-10-26 21:32:43,680 - INFO - epoch 47 started
+2025-10-26 21:32:44,275 - INFO - training loss: 2.2908
+2025-10-26 21:32:45,035 - INFO - validation loss: 2.2849
+2025-10-26 21:32:45,035 - INFO - validation accuracy: 11.8455%
+2025-10-26 21:32:45,385 - INFO - best accuracy: 11.8455% | best loss: 66.2628
+2025-10-26 21:32:45,386 - INFO - saved to model registry!
+2025-10-26 21:32:45,386 - INFO - --------------------------------------------------
+2025-10-26 21:32:45,386 - INFO - epoch 38 started
+2025-10-26 21:32:49,853 - INFO - training loss: 2.2937
+2025-10-26 21:32:50,472 - INFO - validation loss: 2.2948
+2025-10-26 21:32:50,472 - INFO - validation accuracy: 10.3429%
+2025-10-26 21:32:50,472 - INFO - --------------------------------------------------
+2025-10-26 21:32:50,473 - INFO - epoch 48 started
+2025-10-26 21:32:51,900 - INFO - training loss: 2.2422
+2025-10-26 21:32:52,663 - INFO - validation loss: 2.1292
+2025-10-26 21:32:52,663 - INFO - validation accuracy: 19.8009%
+2025-10-26 21:32:52,986 - INFO - best accuracy: 19.8009% | best loss: 61.7468
+2025-10-26 21:32:52,986 - INFO - saved to model registry!
+2025-10-26 21:32:52,986 - INFO - --------------------------------------------------
+2025-10-26 21:32:52,986 - INFO - epoch 39 started
+2025-10-26 21:32:56,747 - INFO - training loss: 2.2937
+2025-10-26 21:32:57,406 - INFO - validation loss: 2.2948
+2025-10-26 21:32:57,406 - INFO - validation accuracy: 10.3429%
+2025-10-26 21:32:57,407 - INFO - --------------------------------------------------
+2025-10-26 21:32:57,407 - INFO - epoch 49 started
+2025-10-26 21:32:59,468 - INFO - training loss: 2.1206
+2025-10-26 21:33:00,263 - INFO - validation loss: 1.9224
+2025-10-26 21:33:00,263 - INFO - validation accuracy: 26.6916%
+2025-10-26 21:33:00,570 - INFO - best accuracy: 26.6916% | best loss: 55.7483
+2025-10-26 21:33:00,570 - INFO - saved to model registry!
+2025-10-26 21:33:00,570 - INFO - --------------------------------------------------
+2025-10-26 21:33:00,570 - INFO - epoch 40 started
+2025-10-26 21:33:03,566 - INFO - training loss: 2.2937
+2025-10-26 21:33:04,201 - INFO - validation loss: 2.2948
+2025-10-26 21:33:04,202 - INFO - validation accuracy: 10.3429%
+2025-10-26 21:33:04,202 - INFO - --------------------------------------------------
+2025-10-26 21:33:04,202 - INFO - epoch 50 started
+2025-10-26 21:33:07,096 - INFO - training loss: 1.9904
+2025-10-26 21:33:07,852 - INFO - validation loss: 1.7550
+2025-10-26 21:33:07,852 - INFO - validation accuracy: 32.9323%
+2025-10-26 21:33:08,157 - INFO - best accuracy: 32.9323% | best loss: 50.8964
+2025-10-26 21:33:08,157 - INFO - saved to model registry!
+2025-10-26 21:33:08,157 - INFO - --------------------------------------------------
+2025-10-26 21:33:08,157 - INFO - epoch 41 started
+2025-10-26 21:33:10,482 - INFO - training loss: 2.2937
+2025-10-26 21:33:11,111 - INFO - validation loss: 2.2948
+2025-10-26 21:33:11,111 - INFO - validation accuracy: 10.3429%
+2025-10-26 21:33:13,023 - INFO - training loss: 1.8909
+2025-10-26 21:33:13,544 - INFO - validation loss: 1.6087
+2025-10-26 21:33:13,544 - INFO - validation accuracy: 38.4495%
+2025-10-26 21:33:13,784 - INFO - best accuracy: 38.4495% | best loss: 46.6521
+2025-10-26 21:33:13,784 - INFO - saved to model registry!
+2025-10-26 21:33:13,784 - INFO - --------------------------------------------------
+2025-10-26 21:33:13,784 - INFO - epoch 42 started
+2025-10-26 21:33:17,433 - INFO - training loss: 1.7901
+2025-10-26 21:33:17,902 - INFO - validation loss: 1.4870
+2025-10-26 21:33:17,902 - INFO - validation accuracy: 43.0402%
+2025-10-26 21:33:18,065 - INFO - best accuracy: 43.0402% | best loss: 43.1230
+2025-10-26 21:33:18,066 - INFO - saved to model registry!
+2025-10-26 21:33:18,066 - INFO - --------------------------------------------------
+2025-10-26 21:33:18,066 - INFO - epoch 43 started
+2025-10-26 21:33:21,733 - INFO - training loss: 1.6988
+2025-10-26 21:33:22,224 - INFO - validation loss: 1.3877
+2025-10-26 21:33:22,225 - INFO - validation accuracy: 46.8842%
+2025-10-26 21:33:22,376 - INFO - best accuracy: 46.8842% | best loss: 40.2433
+2025-10-26 21:33:22,376 - INFO - saved to model registry!
+2025-10-26 21:33:22,376 - INFO - --------------------------------------------------
+2025-10-26 21:33:22,376 - INFO - epoch 44 started
+2025-10-26 21:33:26,009 - INFO - training loss: 1.6177
+2025-10-26 21:33:26,509 - INFO - validation loss: 1.3134
+2025-10-26 21:33:26,509 - INFO - validation accuracy: 49.5990%
+2025-10-26 21:33:26,962 - INFO - best accuracy: 49.5990% | best loss: 38.0875
+2025-10-26 21:33:26,962 - INFO - saved to model registry!
+2025-10-26 21:33:26,962 - INFO - --------------------------------------------------
+2025-10-26 21:33:26,962 - INFO - epoch 45 started
+2025-10-26 21:33:30,668 - INFO - training loss: 1.5365
+2025-10-26 21:33:31,278 - INFO - validation loss: 1.2268
+2025-10-26 21:33:31,279 - INFO - validation accuracy: 53.1941%
+2025-10-26 21:33:31,721 - INFO - best accuracy: 53.1941% | best loss: 35.5773
+2025-10-26 21:33:31,722 - INFO - saved to model registry!
+2025-10-26 21:33:31,722 - INFO - --------------------------------------------------
+2025-10-26 21:33:31,722 - INFO - epoch 46 started
+2025-10-26 21:33:35,357 - INFO - training loss: 1.4694
+2025-10-26 21:33:35,854 - INFO - validation loss: 1.1621
+2025-10-26 21:33:35,854 - INFO - validation accuracy: 56.0011%
+2025-10-26 21:33:36,043 - INFO - best accuracy: 56.0011% | best loss: 33.6997
+2025-10-26 21:33:36,043 - INFO - saved to model registry!
+2025-10-26 21:33:36,043 - INFO - --------------------------------------------------
+2025-10-26 21:33:36,043 - INFO - epoch 47 started
+2025-10-26 21:33:39,731 - INFO - training loss: 1.4065
+2025-10-26 21:33:40,339 - INFO - validation loss: 1.0967
+2025-10-26 21:33:40,340 - INFO - validation accuracy: 58.8403%
+2025-10-26 21:33:40,634 - INFO - best accuracy: 58.8403% | best loss: 31.8032
+2025-10-26 21:33:40,635 - INFO - saved to model registry!
+2025-10-26 21:33:40,635 - INFO - --------------------------------------------------
+2025-10-26 21:33:40,635 - INFO - epoch 48 started
+2025-10-26 21:33:44,261 - INFO - training loss: 1.3489
+2025-10-26 21:33:44,737 - INFO - validation loss: 1.0384
+2025-10-26 21:33:44,738 - INFO - validation accuracy: 61.3846%
+2025-10-26 21:33:44,894 - INFO - best accuracy: 61.3846% | best loss: 30.1150
+2025-10-26 21:33:44,894 - INFO - saved to model registry!
+2025-10-26 21:33:44,894 - INFO - --------------------------------------------------
+2025-10-26 21:33:44,894 - INFO - epoch 49 started
+2025-10-26 21:33:48,518 - INFO - training loss: 1.2869
+2025-10-26 21:33:49,092 - INFO - validation loss: 0.9930
+2025-10-26 21:33:49,092 - INFO - validation accuracy: 62.7305%
+2025-10-26 21:33:49,392 - INFO - best accuracy: 62.7305% | best loss: 28.7972
+2025-10-26 21:33:49,392 - INFO - saved to model registry!
+2025-10-26 21:33:49,393 - INFO - --------------------------------------------------
+2025-10-26 21:33:49,393 - INFO - epoch 50 started
+2025-10-26 21:33:53,067 - INFO - training loss: 1.2325
+2025-10-26 21:33:53,627 - INFO - validation loss: 0.9386
+2025-10-26 21:33:53,627 - INFO - validation accuracy: 65.2286%
+2025-10-26 21:33:53,880 - INFO - best accuracy: 65.2286% | best loss: 27.2186
+2025-10-26 21:33:53,881 - INFO - saved to model registry!
+2025-10-26 21:35:16,794 - INFO - --------------------------------------------------
+2025-10-26 21:35:16,794 - INFO - pytorch version: 2.9.0+cu128
+2025-10-26 21:35:16,794 - INFO - numpy version: 2.3.4
+2025-10-26 21:35:16,794 - INFO - pandas version: 2.3.3
+2025-10-26 21:35:16,794 - INFO - matplotlib version: 3.10.7
+2025-10-26 21:35:16,794 - INFO - pillow version: 12.0.0
+2025-10-26 21:35:16,794 - INFO - --------------------------------------------------
+2025-10-26 21:35:18,816 - INFO - CUDA Is Available : True
+2025-10-26 21:35:18,816 - INFO - --------------------------------------------------
+2025-10-26 21:35:18,832 - INFO - Original size: 10000, Filtered size: 9040
+2025-10-26 21:35:18,848 - INFO - Original size: 10000, Filtered size: 9040
+2025-10-26 21:35:18,879 - INFO - Original size: 10000, Filtered size: 9040
+2025-10-26 21:35:19,194 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:35:19,194 - INFO - --------------------------------------------------
+2025-10-26 21:35:19,194 - INFO - epoch 1 started
+2025-10-26 21:35:23,560 - INFO - training loss: 2.2992
+2025-10-26 21:35:24,974 - INFO - validation loss: 2.2971
+2025-10-26 21:35:24,975 - INFO - validation accuracy: 10.0894%
+2025-10-26 21:35:25,199 - INFO - best accuracy: 10.0894% | best loss: 66.6165
+2025-10-26 21:35:25,200 - INFO - saved to model registry!
+2025-10-26 21:35:25,200 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:35:25,200 - INFO - --------------------------------------------------
+2025-10-26 21:35:25,200 - INFO - epoch 2 started
+2025-10-26 21:35:29,310 - INFO - training loss: 2.2964
+2025-10-26 21:35:29,887 - INFO - validation loss: 2.2961
+2025-10-26 21:35:29,887 - INFO - validation accuracy: 10.0572%
+2025-10-26 21:35:30,210 - INFO - best accuracy: 10.0572% | best loss: 66.5875
+2025-10-26 21:35:30,210 - INFO - saved to model registry!
+2025-10-26 21:35:30,210 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:35:30,211 - INFO - --------------------------------------------------
+2025-10-26 21:35:30,211 - INFO - epoch 3 started
+2025-10-26 21:35:33,852 - INFO - training loss: 2.2953
+2025-10-26 21:35:34,361 - INFO - validation loss: 2.2960
+2025-10-26 21:35:34,361 - INFO - validation accuracy: 9.8083%
+2025-10-26 21:35:34,623 - INFO - best accuracy: 9.8083% | best loss: 66.5832
+2025-10-26 21:35:34,623 - INFO - saved to model registry!
+2025-10-26 21:35:34,624 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:35:34,624 - INFO - --------------------------------------------------
+2025-10-26 21:35:34,624 - INFO - epoch 4 started
+2025-10-26 21:35:38,622 - INFO - training loss: 2.2952
+2025-10-26 21:35:39,191 - INFO - validation loss: 2.2965
+2025-10-26 21:35:39,191 - INFO - validation accuracy: 9.7391%
+2025-10-26 21:35:39,191 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:35:39,191 - INFO - --------------------------------------------------
+2025-10-26 21:35:39,191 - INFO - epoch 5 started
+2025-10-26 21:35:42,843 - INFO - training loss: 2.2951
+2025-10-26 21:35:43,329 - INFO - validation loss: 2.2953
+2025-10-26 21:35:43,329 - INFO - validation accuracy: 10.0664%
+2025-10-26 21:35:43,503 - INFO - best accuracy: 10.0664% | best loss: 66.5639
+2025-10-26 21:35:43,503 - INFO - saved to model registry!
+2025-10-26 21:35:43,503 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:35:43,503 - INFO - --------------------------------------------------
+2025-10-26 21:35:43,503 - INFO - epoch 6 started
+2025-10-26 21:35:47,120 - INFO - training loss: 2.2949
+2025-10-26 21:35:47,587 - INFO - validation loss: 2.2962
+2025-10-26 21:35:47,587 - INFO - validation accuracy: 9.6884%
+2025-10-26 21:35:47,587 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:35:47,587 - INFO - --------------------------------------------------
+2025-10-26 21:35:47,587 - INFO - epoch 7 started
+2025-10-26 21:35:51,191 - INFO - training loss: 2.2948
+2025-10-26 21:35:51,700 - INFO - validation loss: 2.2952
+2025-10-26 21:35:51,700 - INFO - validation accuracy: 10.0940%
+2025-10-26 21:35:51,924 - INFO - best accuracy: 10.0940% | best loss: 66.5599
+2025-10-26 21:35:51,924 - INFO - saved to model registry!
+2025-10-26 21:35:51,924 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:35:51,924 - INFO - --------------------------------------------------
+2025-10-26 21:35:51,924 - INFO - epoch 8 started
+2025-10-26 21:35:55,553 - INFO - training loss: 2.2947
+2025-10-26 21:35:56,106 - INFO - validation loss: 2.2951
+2025-10-26 21:35:56,106 - INFO - validation accuracy: 10.0664%
+2025-10-26 21:35:56,254 - INFO - best accuracy: 10.0664% | best loss: 66.5572
+2025-10-26 21:35:56,254 - INFO - saved to model registry!
+2025-10-26 21:35:56,254 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:35:56,254 - INFO - --------------------------------------------------
+2025-10-26 21:35:56,254 - INFO - epoch 9 started
+2025-10-26 21:35:59,692 - INFO - training loss: 2.2946
+2025-10-26 21:36:00,186 - INFO - validation loss: 2.2951
+2025-10-26 21:36:00,187 - INFO - validation accuracy: 9.9972%
+2025-10-26 21:36:00,429 - INFO - best accuracy: 9.9972% | best loss: 66.5565
+2025-10-26 21:36:00,429 - INFO - saved to model registry!
+2025-10-26 21:36:00,429 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:36:00,429 - INFO - --------------------------------------------------
+2025-10-26 21:36:00,429 - INFO - epoch 10 started
+2025-10-26 21:36:04,073 - INFO - training loss: 2.2945
+2025-10-26 21:36:04,581 - INFO - validation loss: 2.2950
+2025-10-26 21:36:04,582 - INFO - validation accuracy: 10.1447%
+2025-10-26 21:36:04,810 - INFO - best accuracy: 10.1447% | best loss: 66.5543
+2025-10-26 21:36:04,811 - INFO - saved to model registry!
+2025-10-26 21:36:04,811 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:36:04,811 - INFO - --------------------------------------------------
+2025-10-26 21:36:04,811 - INFO - epoch 11 started
+2025-10-26 21:36:08,493 - INFO - training loss: 2.2945
+2025-10-26 21:36:08,990 - INFO - validation loss: 2.2950
+2025-10-26 21:36:08,990 - INFO - validation accuracy: 10.1632%
+2025-10-26 21:36:09,215 - INFO - best accuracy: 10.1632% | best loss: 66.5536
+2025-10-26 21:36:09,215 - INFO - saved to model registry!
+2025-10-26 21:36:09,215 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:36:09,215 - INFO - --------------------------------------------------
+2025-10-26 21:36:09,216 - INFO - epoch 12 started
+2025-10-26 21:36:12,826 - INFO - training loss: 2.2944
+2025-10-26 21:36:13,344 - INFO - validation loss: 2.2949
+2025-10-26 21:36:13,344 - INFO - validation accuracy: 10.1954%
+2025-10-26 21:36:13,608 - INFO - best accuracy: 10.1954% | best loss: 66.5522
+2025-10-26 21:36:13,608 - INFO - saved to model registry!
+2025-10-26 21:36:13,608 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:36:13,608 - INFO - --------------------------------------------------
+2025-10-26 21:36:13,608 - INFO - epoch 13 started
+2025-10-26 21:36:17,086 - INFO - training loss: 2.2943
+2025-10-26 21:36:17,599 - INFO - validation loss: 2.2949
+2025-10-26 21:36:17,600 - INFO - validation accuracy: 10.1678%
+2025-10-26 21:36:17,797 - INFO - best accuracy: 10.1678% | best loss: 66.5521
+2025-10-26 21:36:17,798 - INFO - saved to model registry!
+2025-10-26 21:36:17,798 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:36:17,798 - INFO - --------------------------------------------------
+2025-10-26 21:36:17,798 - INFO - epoch 14 started
+2025-10-26 21:36:21,471 - INFO - training loss: 2.2943
+2025-10-26 21:36:22,064 - INFO - validation loss: 2.2948
+2025-10-26 21:36:22,065 - INFO - validation accuracy: 10.2231%
+2025-10-26 21:36:22,260 - INFO - best accuracy: 10.2231% | best loss: 66.5505
+2025-10-26 21:36:22,260 - INFO - saved to model registry!
+2025-10-26 21:36:22,260 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:36:22,260 - INFO - --------------------------------------------------
+2025-10-26 21:36:22,260 - INFO - epoch 15 started
+2025-10-26 21:36:25,867 - INFO - training loss: 2.2943
+2025-10-26 21:36:26,408 - INFO - validation loss: 2.2948
+2025-10-26 21:36:26,408 - INFO - validation accuracy: 10.2692%
+2025-10-26 21:36:26,734 - INFO - best accuracy: 10.2692% | best loss: 66.5497
+2025-10-26 21:36:26,734 - INFO - saved to model registry!
+2025-10-26 21:36:26,734 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:36:26,734 - INFO - --------------------------------------------------
+2025-10-26 21:36:26,734 - INFO - epoch 16 started
+2025-10-26 21:36:30,364 - INFO - training loss: 2.2942
+2025-10-26 21:36:30,854 - INFO - validation loss: 2.2948
+2025-10-26 21:36:30,854 - INFO - validation accuracy: 10.2692%
+2025-10-26 21:36:31,032 - INFO - best accuracy: 10.2692% | best loss: 66.5490
+2025-10-26 21:36:31,032 - INFO - saved to model registry!
+2025-10-26 21:36:31,032 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:36:31,033 - INFO - --------------------------------------------------
+2025-10-26 21:36:31,033 - INFO - epoch 17 started
+2025-10-26 21:36:34,651 - INFO - training loss: 2.2942
+2025-10-26 21:36:35,149 - INFO - validation loss: 2.2948
+2025-10-26 21:36:35,150 - INFO - validation accuracy: 10.2692%
+2025-10-26 21:36:35,400 - INFO - best accuracy: 10.2692% | best loss: 66.5479
+2025-10-26 21:36:35,400 - INFO - saved to model registry!
+2025-10-26 21:36:35,400 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:36:35,400 - INFO - --------------------------------------------------
+2025-10-26 21:36:35,400 - INFO - epoch 18 started
+2025-10-26 21:36:39,052 - INFO - training loss: 2.2942
+2025-10-26 21:36:39,580 - INFO - validation loss: 2.2948
+2025-10-26 21:36:39,581 - INFO - validation accuracy: 10.2692%
+2025-10-26 21:36:39,581 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:36:39,581 - INFO - --------------------------------------------------
+2025-10-26 21:36:39,581 - INFO - epoch 19 started
+2025-10-26 21:36:43,220 - INFO - training loss: 2.2941
+2025-10-26 21:36:43,707 - INFO - validation loss: 2.2947
+2025-10-26 21:36:43,707 - INFO - validation accuracy: 10.2692%
+2025-10-26 21:36:43,953 - INFO - best accuracy: 10.2692% | best loss: 66.5464
+2025-10-26 21:36:43,953 - INFO - saved to model registry!
+2025-10-26 21:36:43,953 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:36:43,953 - INFO - --------------------------------------------------
+2025-10-26 21:36:43,953 - INFO - epoch 20 started
+2025-10-26 21:36:47,627 - INFO - training loss: 2.2941
+2025-10-26 21:36:48,138 - INFO - validation loss: 2.2947
+2025-10-26 21:36:48,138 - INFO - validation accuracy: 10.2415%
+2025-10-26 21:36:48,138 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:36:48,138 - INFO - --------------------------------------------------
+2025-10-26 21:36:48,138 - INFO - epoch 21 started
+2025-10-26 21:36:51,795 - INFO - training loss: 2.2941
+2025-10-26 21:36:52,301 - INFO - validation loss: 2.2947
+2025-10-26 21:36:52,301 - INFO - validation accuracy: 10.2415%
+2025-10-26 21:36:52,301 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:36:52,301 - INFO - --------------------------------------------------
+2025-10-26 21:36:52,301 - INFO - epoch 22 started
+2025-10-26 21:36:55,934 - INFO - training loss: 2.2941
+2025-10-26 21:36:56,411 - INFO - validation loss: 2.2947
+2025-10-26 21:36:56,411 - INFO - validation accuracy: 10.2415%
+2025-10-26 21:36:56,411 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:36:56,411 - INFO - --------------------------------------------------
+2025-10-26 21:36:56,411 - INFO - epoch 23 started
+2025-10-26 21:37:00,060 - INFO - training loss: 2.2940
+2025-10-26 21:37:00,580 - INFO - validation loss: 2.2947
+2025-10-26 21:37:00,580 - INFO - validation accuracy: 10.2415%
+2025-10-26 21:37:00,580 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:37:00,580 - INFO - --------------------------------------------------
+2025-10-26 21:37:00,580 - INFO - epoch 24 started
+2025-10-26 21:37:04,238 - INFO - training loss: 2.2940
+2025-10-26 21:37:04,763 - INFO - validation loss: 2.2947
+2025-10-26 21:37:04,763 - INFO - validation accuracy: 10.2415%
+2025-10-26 21:37:04,763 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:37:04,763 - INFO - --------------------------------------------------
+2025-10-26 21:37:04,763 - INFO - epoch 25 started
+2025-10-26 21:37:08,376 - INFO - training loss: 2.2940
+2025-10-26 21:37:08,872 - INFO - validation loss: 2.2947
+2025-10-26 21:37:08,873 - INFO - validation accuracy: 10.2415%
+2025-10-26 21:37:08,873 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:37:08,873 - INFO - --------------------------------------------------
+2025-10-26 21:37:08,873 - INFO - epoch 26 started
+2025-10-26 21:37:12,466 - INFO - training loss: 2.2940
+2025-10-26 21:37:12,988 - INFO - validation loss: 2.2948
+2025-10-26 21:37:12,988 - INFO - validation accuracy: 10.2415%
+2025-10-26 21:37:12,988 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:37:12,988 - INFO - --------------------------------------------------
+2025-10-26 21:37:12,988 - INFO - epoch 27 started
+2025-10-26 21:37:16,654 - INFO - training loss: 2.2940
+2025-10-26 21:37:17,153 - INFO - validation loss: 2.2947
+2025-10-26 21:37:17,153 - INFO - validation accuracy: 10.2415%
+2025-10-26 21:37:17,334 - INFO - best accuracy: 10.2415% | best loss: 66.5463
+2025-10-26 21:37:17,334 - INFO - saved to model registry!
+2025-10-26 21:37:17,334 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:37:17,334 - INFO - --------------------------------------------------
+2025-10-26 21:37:17,334 - INFO - epoch 28 started
+2025-10-26 21:37:20,822 - INFO - training loss: 2.2939
+2025-10-26 21:37:21,381 - INFO - validation loss: 2.2948
+2025-10-26 21:37:21,381 - INFO - validation accuracy: 10.2415%
+2025-10-26 21:37:21,381 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:37:21,382 - INFO - --------------------------------------------------
+2025-10-26 21:37:21,382 - INFO - epoch 29 started
+2025-10-26 21:37:25,069 - INFO - training loss: 2.2939
+2025-10-26 21:37:25,591 - INFO - validation loss: 2.2947
+2025-10-26 21:37:25,591 - INFO - validation accuracy: 10.2415%
+2025-10-26 21:37:25,591 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:37:25,591 - INFO - --------------------------------------------------
+2025-10-26 21:37:25,591 - INFO - epoch 30 started
+2025-10-26 21:37:29,208 - INFO - training loss: 2.2939
+2025-10-26 21:37:29,703 - INFO - validation loss: 2.2948
+2025-10-26 21:37:29,704 - INFO - validation accuracy: 10.2415%
+2025-10-26 21:37:29,704 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:37:29,704 - INFO - --------------------------------------------------
+2025-10-26 21:37:29,704 - INFO - epoch 31 started
+2025-10-26 21:37:33,325 - INFO - training loss: 2.2939
+2025-10-26 21:37:33,802 - INFO - validation loss: 2.2947
+2025-10-26 21:37:33,802 - INFO - validation accuracy: 10.2369%
+2025-10-26 21:37:33,803 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:37:33,803 - INFO - --------------------------------------------------
+2025-10-26 21:37:33,803 - INFO - epoch 32 started
+2025-10-26 21:37:37,436 - INFO - training loss: 2.2939
+2025-10-26 21:37:37,990 - INFO - validation loss: 2.2947
+2025-10-26 21:37:37,990 - INFO - validation accuracy: 10.2369%
+2025-10-26 21:37:37,990 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:37:37,990 - INFO - --------------------------------------------------
+2025-10-26 21:37:37,990 - INFO - epoch 33 started
+2025-10-26 21:37:41,663 - INFO - training loss: 2.2939
+2025-10-26 21:37:42,167 - INFO - validation loss: 2.2947
+2025-10-26 21:37:42,167 - INFO - validation accuracy: 10.2369%
+2025-10-26 21:37:42,167 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:37:42,167 - INFO - --------------------------------------------------
+2025-10-26 21:37:42,168 - INFO - epoch 34 started
+2025-10-26 21:37:45,780 - INFO - training loss: 2.2939
+2025-10-26 21:37:46,277 - INFO - validation loss: 2.2947
+2025-10-26 21:37:46,278 - INFO - validation accuracy: 10.2369%
+2025-10-26 21:37:46,278 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:37:46,278 - INFO - --------------------------------------------------
+2025-10-26 21:37:46,278 - INFO - epoch 35 started
+2025-10-26 21:37:49,948 - INFO - training loss: 2.2938
+2025-10-26 21:37:50,452 - INFO - validation loss: 2.2947
+2025-10-26 21:37:50,453 - INFO - validation accuracy: 10.2139%
+2025-10-26 21:37:50,453 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:37:50,453 - INFO - --------------------------------------------------
+2025-10-26 21:37:50,453 - INFO - epoch 36 started
+2025-10-26 21:37:54,108 - INFO - training loss: 2.2938
+2025-10-26 21:37:54,668 - INFO - validation loss: 2.2947
+2025-10-26 21:37:54,669 - INFO - validation accuracy: 10.2139%
+2025-10-26 21:37:54,986 - INFO - best accuracy: 10.2139% | best loss: 66.5461
+2025-10-26 21:37:54,986 - INFO - saved to model registry!
+2025-10-26 21:37:54,986 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:37:54,987 - INFO - --------------------------------------------------
+2025-10-26 21:37:54,987 - INFO - epoch 37 started
+2025-10-26 21:37:58,632 - INFO - training loss: 2.2938
+2025-10-26 21:37:59,150 - INFO - validation loss: 2.2947
+2025-10-26 21:37:59,151 - INFO - validation accuracy: 10.2139%
+2025-10-26 21:37:59,391 - INFO - best accuracy: 10.2139% | best loss: 66.5452
+2025-10-26 21:37:59,391 - INFO - saved to model registry!
+2025-10-26 21:37:59,391 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:37:59,391 - INFO - --------------------------------------------------
+2025-10-26 21:37:59,391 - INFO - epoch 38 started
+2025-10-26 21:38:03,027 - INFO - training loss: 2.2938
+2025-10-26 21:38:03,561 - INFO - validation loss: 2.2947
+2025-10-26 21:38:03,561 - INFO - validation accuracy: 10.3798%
+2025-10-26 21:38:03,786 - INFO - best accuracy: 10.3798% | best loss: 66.5455
+2025-10-26 21:38:03,787 - INFO - saved to model registry!
+2025-10-26 21:38:03,787 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:38:03,787 - INFO - --------------------------------------------------
+2025-10-26 21:38:03,787 - INFO - epoch 39 started
+2025-10-26 21:38:07,488 - INFO - training loss: 2.2938
+2025-10-26 21:38:07,996 - INFO - validation loss: 2.2947
+2025-10-26 21:38:07,996 - INFO - validation accuracy: 10.3798%
+2025-10-26 21:38:08,238 - INFO - best accuracy: 10.3798% | best loss: 66.5452
+2025-10-26 21:38:08,238 - INFO - saved to model registry!
+2025-10-26 21:38:08,238 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:38:08,238 - INFO - --------------------------------------------------
+2025-10-26 21:38:08,238 - INFO - epoch 40 started
+2025-10-26 21:38:11,867 - INFO - training loss: 2.2938
+2025-10-26 21:38:12,383 - INFO - validation loss: 2.2947
+2025-10-26 21:38:12,383 - INFO - validation accuracy: 10.2139%
+2025-10-26 21:38:12,383 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:38:12,383 - INFO - --------------------------------------------------
+2025-10-26 21:38:12,383 - INFO - epoch 41 started
+2025-10-26 21:38:16,049 - INFO - training loss: 2.2938
+2025-10-26 21:38:16,540 - INFO - validation loss: 2.2946
+2025-10-26 21:38:16,540 - INFO - validation accuracy: 10.3798%
+2025-10-26 21:38:16,728 - INFO - best accuracy: 10.3798% | best loss: 66.5447
+2025-10-26 21:38:16,728 - INFO - saved to model registry!
+2025-10-26 21:38:16,728 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:38:16,728 - INFO - --------------------------------------------------
+2025-10-26 21:38:16,728 - INFO - epoch 42 started
+2025-10-26 21:38:20,234 - INFO - training loss: 2.2938
+2025-10-26 21:38:20,737 - INFO - validation loss: 2.2946
+2025-10-26 21:38:20,737 - INFO - validation accuracy: 10.3798%
+2025-10-26 21:38:21,002 - INFO - best accuracy: 10.3798% | best loss: 66.5439
+2025-10-26 21:38:21,002 - INFO - saved to model registry!
+2025-10-26 21:38:21,002 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:38:21,002 - INFO - --------------------------------------------------
+2025-10-26 21:38:21,002 - INFO - epoch 43 started
+2025-10-26 21:38:24,687 - INFO - training loss: 2.2938
+2025-10-26 21:38:25,219 - INFO - validation loss: 2.2946
+2025-10-26 21:38:25,219 - INFO - validation accuracy: 10.3798%
+2025-10-26 21:38:25,447 - INFO - best accuracy: 10.3798% | best loss: 66.5433
+2025-10-26 21:38:25,447 - INFO - saved to model registry!
+2025-10-26 21:38:25,447 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:38:25,447 - INFO - --------------------------------------------------
+2025-10-26 21:38:25,448 - INFO - epoch 44 started
+2025-10-26 21:38:29,037 - INFO - training loss: 2.2938
+2025-10-26 21:38:29,579 - INFO - validation loss: 2.2946
+2025-10-26 21:38:29,580 - INFO - validation accuracy: 10.3798%
+2025-10-26 21:38:29,870 - INFO - best accuracy: 10.3798% | best loss: 66.5427
+2025-10-26 21:38:29,871 - INFO - saved to model registry!
+2025-10-26 21:38:29,871 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:38:29,871 - INFO - --------------------------------------------------
+2025-10-26 21:38:29,871 - INFO - epoch 45 started
+2025-10-26 21:38:33,494 - INFO - training loss: 2.2937
+2025-10-26 21:38:33,999 - INFO - validation loss: 2.2946
+2025-10-26 21:38:33,999 - INFO - validation accuracy: 10.3798%
+2025-10-26 21:38:34,286 - INFO - best accuracy: 10.3798% | best loss: 66.5424
+2025-10-26 21:38:34,286 - INFO - saved to model registry!
+2025-10-26 21:38:34,286 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:38:34,286 - INFO - --------------------------------------------------
+2025-10-26 21:38:34,286 - INFO - epoch 46 started
+2025-10-26 21:38:37,940 - INFO - training loss: 2.2937
+2025-10-26 21:38:38,454 - INFO - validation loss: 2.2946
+2025-10-26 21:38:38,454 - INFO - validation accuracy: 10.3798%
+2025-10-26 21:38:38,793 - INFO - best accuracy: 10.3798% | best loss: 66.5423
+2025-10-26 21:38:38,793 - INFO - saved to model registry!
+2025-10-26 21:38:38,794 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:38:38,794 - INFO - --------------------------------------------------
+2025-10-26 21:38:38,794 - INFO - epoch 47 started
+2025-10-26 21:38:42,473 - INFO - training loss: 2.2937
+2025-10-26 21:38:42,943 - INFO - validation loss: 2.2945
+2025-10-26 21:38:42,943 - INFO - validation accuracy: 10.3798%
+2025-10-26 21:38:43,229 - INFO - best accuracy: 10.3798% | best loss: 66.5416
+2025-10-26 21:38:43,229 - INFO - saved to model registry!
+2025-10-26 21:38:43,229 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:38:43,229 - INFO - --------------------------------------------------
+2025-10-26 21:38:43,229 - INFO - epoch 48 started
+2025-10-26 21:38:46,919 - INFO - training loss: 2.2937
+2025-10-26 21:38:47,401 - INFO - validation loss: 2.2945
+2025-10-26 21:38:47,401 - INFO - validation accuracy: 10.3798%
+2025-10-26 21:38:47,577 - INFO - best accuracy: 10.3798% | best loss: 66.5413
+2025-10-26 21:38:47,577 - INFO - saved to model registry!
+2025-10-26 21:38:47,578 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:38:47,578 - INFO - --------------------------------------------------
+2025-10-26 21:38:47,578 - INFO - epoch 49 started
+2025-10-26 21:38:51,225 - INFO - training loss: 2.2937
+2025-10-26 21:38:51,772 - INFO - validation loss: 2.2945
+2025-10-26 21:38:51,772 - INFO - validation accuracy: 10.3798%
+2025-10-26 21:38:51,954 - INFO - best accuracy: 10.3798% | best loss: 66.5405
+2025-10-26 21:38:51,954 - INFO - saved to model registry!
+2025-10-26 21:38:51,954 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:38:51,954 - INFO - --------------------------------------------------
+2025-10-26 21:38:51,954 - INFO - epoch 50 started
+2025-10-26 21:38:55,479 - INFO - training loss: 2.2937
+2025-10-26 21:38:56,000 - INFO - validation loss: 2.2945
+2025-10-26 21:38:56,001 - INFO - validation accuracy: 10.3798%
+2025-10-26 21:38:56,267 - INFO - best accuracy: 10.3798% | best loss: 66.5404
+2025-10-26 21:38:56,267 - INFO - saved to model registry!
+2025-10-26 21:38:56,267 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:38:56,267 - INFO - --------------------------------------------------
+2025-10-26 21:38:56,267 - INFO - epoch 51 started
+2025-10-26 21:38:59,937 - INFO - training loss: 2.2937
+2025-10-26 21:39:00,452 - INFO - validation loss: 2.2944
+2025-10-26 21:39:00,452 - INFO - validation accuracy: 10.4351%
+2025-10-26 21:39:00,711 - INFO - best accuracy: 10.4351% | best loss: 66.5389
+2025-10-26 21:39:00,712 - INFO - saved to model registry!
+2025-10-26 21:39:00,712 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:39:00,712 - INFO - --------------------------------------------------
+2025-10-26 21:39:00,712 - INFO - epoch 52 started
+2025-10-26 21:39:04,321 - INFO - training loss: 2.2937
+2025-10-26 21:39:04,785 - INFO - validation loss: 2.2945
+2025-10-26 21:39:04,785 - INFO - validation accuracy: 10.2000%
+2025-10-26 21:39:04,785 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:39:04,785 - INFO - --------------------------------------------------
+2025-10-26 21:39:04,785 - INFO - epoch 53 started
+2025-10-26 21:39:08,427 - INFO - training loss: 2.2937
+2025-10-26 21:39:08,931 - INFO - validation loss: 2.2945
+2025-10-26 21:39:08,932 - INFO - validation accuracy: 10.2600%
+2025-10-26 21:39:08,932 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:39:08,932 - INFO - --------------------------------------------------
+2025-10-26 21:39:08,932 - INFO - epoch 54 started
+2025-10-26 21:39:12,561 - INFO - training loss: 2.2937
+2025-10-26 21:39:13,055 - INFO - validation loss: 2.2944
+2025-10-26 21:39:13,055 - INFO - validation accuracy: 10.4443%
+2025-10-26 21:39:13,228 - INFO - best accuracy: 10.4443% | best loss: 66.5386
+2025-10-26 21:39:13,228 - INFO - saved to model registry!
+2025-10-26 21:39:13,228 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:39:13,228 - INFO - --------------------------------------------------
+2025-10-26 21:39:13,228 - INFO - epoch 55 started
+2025-10-26 21:39:16,866 - INFO - training loss: 2.2937
+2025-10-26 21:39:17,370 - INFO - validation loss: 2.2944
+2025-10-26 21:39:17,370 - INFO - validation accuracy: 10.3107%
+2025-10-26 21:39:17,370 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:39:17,370 - INFO - --------------------------------------------------
+2025-10-26 21:39:17,370 - INFO - epoch 56 started
+2025-10-26 21:39:21,067 - INFO - training loss: 2.2936
+2025-10-26 21:39:21,564 - INFO - validation loss: 2.2943
+2025-10-26 21:39:21,564 - INFO - validation accuracy: 10.3521%
+2025-10-26 21:39:21,851 - INFO - best accuracy: 10.3521% | best loss: 66.5336
+2025-10-26 21:39:21,851 - INFO - saved to model registry!
+2025-10-26 21:39:21,851 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:39:21,852 - INFO - --------------------------------------------------
+2025-10-26 21:39:21,852 - INFO - epoch 57 started
+2025-10-26 21:39:25,545 - INFO - training loss: 2.2932
+2025-10-26 21:39:26,100 - INFO - validation loss: 2.2923
+2025-10-26 21:39:26,100 - INFO - validation accuracy: 11.4445%
+2025-10-26 21:39:26,303 - INFO - best accuracy: 11.4445% | best loss: 66.4770
+2025-10-26 21:39:26,304 - INFO - saved to model registry!
+2025-10-26 21:39:26,304 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:39:26,304 - INFO - --------------------------------------------------
+2025-10-26 21:39:26,304 - INFO - epoch 58 started
+2025-10-26 21:39:30,024 - INFO - training loss: 2.2692
+2025-10-26 21:39:30,581 - INFO - validation loss: 2.1600
+2025-10-26 21:39:30,581 - INFO - validation accuracy: 20.6951%
+2025-10-26 21:39:30,848 - INFO - best accuracy: 20.6951% | best loss: 62.6397
+2025-10-26 21:39:30,848 - INFO - saved to model registry!
+2025-10-26 21:39:30,848 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:39:30,848 - INFO - --------------------------------------------------
+2025-10-26 21:39:30,848 - INFO - epoch 59 started
+2025-10-26 21:39:34,541 - INFO - training loss: 2.1468
+2025-10-26 21:39:35,065 - INFO - validation loss: 2.0004
+2025-10-26 21:39:35,065 - INFO - validation accuracy: 25.4517%
+2025-10-26 21:39:35,259 - INFO - best accuracy: 25.4517% | best loss: 58.0122
+2025-10-26 21:39:35,260 - INFO - saved to model registry!
+2025-10-26 21:39:35,260 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:39:35,260 - INFO - --------------------------------------------------
+2025-10-26 21:39:35,260 - INFO - epoch 60 started
+2025-10-26 21:39:38,986 - INFO - training loss: 2.0753
+2025-10-26 21:39:39,505 - INFO - validation loss: 1.8961
+2025-10-26 21:39:39,505 - INFO - validation accuracy: 29.0929%
+2025-10-26 21:39:39,667 - INFO - best accuracy: 29.0929% | best loss: 54.9858
+2025-10-26 21:39:39,667 - INFO - saved to model registry!
+2025-10-26 21:39:39,667 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:39:39,667 - INFO - --------------------------------------------------
+2025-10-26 21:39:39,667 - INFO - epoch 61 started
+2025-10-26 21:39:43,166 - INFO - training loss: 2.0077
+2025-10-26 21:39:43,715 - INFO - validation loss: 1.7852
+2025-10-26 21:39:43,715 - INFO - validation accuracy: 33.1536%
+2025-10-26 21:39:44,043 - INFO - best accuracy: 33.1536% | best loss: 51.7705
+2025-10-26 21:39:44,043 - INFO - saved to model registry!
+2025-10-26 21:39:44,044 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:39:44,044 - INFO - --------------------------------------------------
+2025-10-26 21:39:44,044 - INFO - epoch 62 started
+2025-10-26 21:39:47,701 - INFO - training loss: 1.9108
+2025-10-26 21:39:48,183 - INFO - validation loss: 1.6652
+2025-10-26 21:39:48,183 - INFO - validation accuracy: 37.3387%
+2025-10-26 21:39:48,453 - INFO - best accuracy: 37.3387% | best loss: 48.2916
+2025-10-26 21:39:48,453 - INFO - saved to model registry!
+2025-10-26 21:39:48,453 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:39:48,453 - INFO - --------------------------------------------------
+2025-10-26 21:39:48,453 - INFO - epoch 63 started
+2025-10-26 21:39:52,106 - INFO - training loss: 1.8196
+2025-10-26 21:39:52,679 - INFO - validation loss: 1.5824
+2025-10-26 21:39:52,680 - INFO - validation accuracy: 39.9613%
+2025-10-26 21:39:52,980 - INFO - best accuracy: 39.9613% | best loss: 45.8897
+2025-10-26 21:39:52,980 - INFO - saved to model registry!
+2025-10-26 21:39:52,980 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:39:52,980 - INFO - --------------------------------------------------
+2025-10-26 21:39:52,980 - INFO - epoch 64 started
+2025-10-26 21:39:56,656 - INFO - training loss: 1.7361
+2025-10-26 21:39:57,193 - INFO - validation loss: 1.5091
+2025-10-26 21:39:57,193 - INFO - validation accuracy: 42.6807%
+2025-10-26 21:39:57,478 - INFO - best accuracy: 42.6807% | best loss: 43.7649
+2025-10-26 21:39:57,478 - INFO - saved to model registry!
+2025-10-26 21:39:57,478 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:39:57,478 - INFO - --------------------------------------------------
+2025-10-26 21:39:57,478 - INFO - epoch 65 started
+2025-10-26 21:40:01,218 - INFO - training loss: 1.6600
+2025-10-26 21:40:01,760 - INFO - validation loss: 1.4553
+2025-10-26 21:40:01,761 - INFO - validation accuracy: 44.7824%
+2025-10-26 21:40:01,945 - INFO - best accuracy: 44.7824% | best loss: 42.2028
+2025-10-26 21:40:01,945 - INFO - saved to model registry!
+2025-10-26 21:40:01,945 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:40:01,945 - INFO - --------------------------------------------------
+2025-10-26 21:40:01,945 - INFO - epoch 66 started
+2025-10-26 21:40:05,594 - INFO - training loss: 1.5924
+2025-10-26 21:40:06,169 - INFO - validation loss: 1.3800
+2025-10-26 21:40:06,169 - INFO - validation accuracy: 47.5756%
+2025-10-26 21:40:06,426 - INFO - best accuracy: 47.5756% | best loss: 40.0208
+2025-10-26 21:40:06,426 - INFO - saved to model registry!
+2025-10-26 21:40:06,426 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:40:06,426 - INFO - --------------------------------------------------
+2025-10-26 21:40:06,427 - INFO - epoch 67 started
+2025-10-26 21:40:10,166 - INFO - training loss: 1.5405
+2025-10-26 21:40:10,705 - INFO - validation loss: 1.3351
+2025-10-26 21:40:10,706 - INFO - validation accuracy: 49.1796%
+2025-10-26 21:40:10,955 - INFO - best accuracy: 49.1796% | best loss: 38.7189
+2025-10-26 21:40:10,955 - INFO - saved to model registry!
+2025-10-26 21:40:10,955 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:40:10,955 - INFO - --------------------------------------------------
+2025-10-26 21:40:10,955 - INFO - epoch 68 started
+2025-10-26 21:40:14,586 - INFO - training loss: 1.4905
+2025-10-26 21:40:15,060 - INFO - validation loss: 1.2780
+2025-10-26 21:40:15,060 - INFO - validation accuracy: 51.1799%
+2025-10-26 21:40:15,231 - INFO - best accuracy: 51.1799% | best loss: 37.0607
+2025-10-26 21:40:15,231 - INFO - saved to model registry!
+2025-10-26 21:40:15,231 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:40:15,231 - INFO - --------------------------------------------------
+2025-10-26 21:40:15,232 - INFO - epoch 69 started
+2025-10-26 21:40:18,822 - INFO - training loss: 1.4488
+2025-10-26 21:40:19,289 - INFO - validation loss: 1.2342
+2025-10-26 21:40:19,289 - INFO - validation accuracy: 53.0420%
+2025-10-26 21:40:19,468 - INFO - best accuracy: 53.0420% | best loss: 35.7932
+2025-10-26 21:40:19,468 - INFO - saved to model registry!
+2025-10-26 21:40:19,468 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:40:19,468 - INFO - --------------------------------------------------
+2025-10-26 21:40:19,468 - INFO - epoch 70 started
+2025-10-26 21:40:23,071 - INFO - training loss: 1.4033
+2025-10-26 21:40:23,535 - INFO - validation loss: 1.1944
+2025-10-26 21:40:23,535 - INFO - validation accuracy: 54.4709%
+2025-10-26 21:40:23,710 - INFO - best accuracy: 54.4709% | best loss: 34.6383
+2025-10-26 21:40:23,710 - INFO - saved to model registry!
+2025-10-26 21:40:23,710 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:40:23,710 - INFO - --------------------------------------------------
+2025-10-26 21:40:23,710 - INFO - epoch 71 started
+2025-10-26 21:40:27,309 - INFO - training loss: 1.3686
+2025-10-26 21:40:27,774 - INFO - validation loss: 1.1522
+2025-10-26 21:40:27,774 - INFO - validation accuracy: 56.8031%
+2025-10-26 21:40:27,971 - INFO - best accuracy: 56.8031% | best loss: 33.4139
+2025-10-26 21:40:27,971 - INFO - saved to model registry!
+2025-10-26 21:40:27,971 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:40:27,971 - INFO - --------------------------------------------------
+2025-10-26 21:40:27,972 - INFO - epoch 72 started
+2025-10-26 21:40:31,596 - INFO - training loss: 1.3249
+2025-10-26 21:40:32,074 - INFO - validation loss: 1.1145
+2025-10-26 21:40:32,074 - INFO - validation accuracy: 57.7249%
+2025-10-26 21:40:32,238 - INFO - best accuracy: 57.7249% | best loss: 32.3208
+2025-10-26 21:40:32,239 - INFO - saved to model registry!
+2025-10-26 21:40:32,239 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:40:32,239 - INFO - --------------------------------------------------
+2025-10-26 21:40:32,239 - INFO - epoch 73 started
+2025-10-26 21:40:35,839 - INFO - training loss: 1.2954
+2025-10-26 21:40:36,345 - INFO - validation loss: 1.0842
+2025-10-26 21:40:36,345 - INFO - validation accuracy: 58.9095%
+2025-10-26 21:40:36,602 - INFO - best accuracy: 58.9095% | best loss: 31.4432
+2025-10-26 21:40:36,603 - INFO - saved to model registry!
+2025-10-26 21:40:36,603 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:40:36,603 - INFO - --------------------------------------------------
+2025-10-26 21:40:36,603 - INFO - epoch 74 started
+2025-10-26 21:40:40,256 - INFO - training loss: 1.2590
+2025-10-26 21:40:40,750 - INFO - validation loss: 1.0470
+2025-10-26 21:40:40,750 - INFO - validation accuracy: 60.9513%
+2025-10-26 21:40:40,931 - INFO - best accuracy: 60.9513% | best loss: 30.3617
+2025-10-26 21:40:40,932 - INFO - saved to model registry!
+2025-10-26 21:40:40,932 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:40:40,932 - INFO - --------------------------------------------------
+2025-10-26 21:40:40,932 - INFO - epoch 75 started
+2025-10-26 21:40:44,523 - INFO - training loss: 1.2318
+2025-10-26 21:40:45,010 - INFO - validation loss: 1.0203
+2025-10-26 21:40:45,010 - INFO - validation accuracy: 61.7902%
+2025-10-26 21:40:45,180 - INFO - best accuracy: 61.7902% | best loss: 29.5876
+2025-10-26 21:40:45,180 - INFO - saved to model registry!
+2025-10-26 21:40:45,180 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:40:45,180 - INFO - --------------------------------------------------
+2025-10-26 21:40:45,180 - INFO - epoch 76 started
+2025-10-26 21:40:48,802 - INFO - training loss: 1.2115
+2025-10-26 21:40:49,290 - INFO - validation loss: 0.9929
+2025-10-26 21:40:49,290 - INFO - validation accuracy: 63.1822%
+2025-10-26 21:40:49,469 - INFO - best accuracy: 63.1822% | best loss: 28.7944
+2025-10-26 21:40:49,469 - INFO - saved to model registry!
+2025-10-26 21:40:49,469 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:40:49,469 - INFO - --------------------------------------------------
+2025-10-26 21:40:49,469 - INFO - epoch 77 started
+2025-10-26 21:40:53,070 - INFO - training loss: 1.1702
+2025-10-26 21:40:53,539 - INFO - validation loss: 0.9718
+2025-10-26 21:40:53,539 - INFO - validation accuracy: 63.8551%
+2025-10-26 21:40:53,709 - INFO - best accuracy: 63.8551% | best loss: 28.1835
+2025-10-26 21:40:53,709 - INFO - saved to model registry!
+2025-10-26 21:40:53,709 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:40:53,709 - INFO - --------------------------------------------------
+2025-10-26 21:40:53,709 - INFO - epoch 78 started
+2025-10-26 21:40:57,331 - INFO - training loss: 1.1421
+2025-10-26 21:40:57,925 - INFO - validation loss: 0.9395
+2025-10-26 21:40:57,926 - INFO - validation accuracy: 65.0166%
+2025-10-26 21:40:58,177 - INFO - best accuracy: 65.0166% | best loss: 27.2456
+2025-10-26 21:40:58,177 - INFO - saved to model registry!
+2025-10-26 21:40:58,177 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:40:58,177 - INFO - --------------------------------------------------
+2025-10-26 21:40:58,177 - INFO - epoch 79 started
+2025-10-26 21:41:01,847 - INFO - training loss: 1.1173
+2025-10-26 21:41:02,575 - INFO - validation loss: 0.9114
+2025-10-26 21:41:02,575 - INFO - validation accuracy: 66.4408%
+2025-10-26 21:41:02,934 - INFO - best accuracy: 66.4408% | best loss: 26.4313
+2025-10-26 21:41:02,935 - INFO - saved to model registry!
+2025-10-26 21:41:02,936 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:41:02,936 - INFO - --------------------------------------------------
+2025-10-26 21:41:02,936 - INFO - epoch 80 started
+2025-10-26 21:41:06,724 - INFO - training loss: 1.1015
+2025-10-26 21:41:07,440 - INFO - validation loss: 0.8995
+2025-10-26 21:41:07,440 - INFO - validation accuracy: 66.6667%
+2025-10-26 21:41:07,778 - INFO - best accuracy: 66.6667% | best loss: 26.0868
+2025-10-26 21:41:07,778 - INFO - saved to model registry!
+2025-10-26 21:41:07,779 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:41:07,779 - INFO - --------------------------------------------------
+2025-10-26 21:41:07,779 - INFO - epoch 81 started
+2025-10-26 21:41:11,519 - INFO - training loss: 1.0773
+2025-10-26 21:41:12,005 - INFO - validation loss: 0.8837
+2025-10-26 21:41:12,005 - INFO - validation accuracy: 67.4594%
+2025-10-26 21:41:12,227 - INFO - best accuracy: 67.4594% | best loss: 25.6267
+2025-10-26 21:41:12,228 - INFO - saved to model registry!
+2025-10-26 21:41:12,228 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:41:12,228 - INFO - --------------------------------------------------
+2025-10-26 21:41:12,228 - INFO - epoch 82 started
+2025-10-26 21:41:15,855 - INFO - training loss: 1.0547
+2025-10-26 21:41:16,363 - INFO - validation loss: 0.8732
+2025-10-26 21:41:16,363 - INFO - validation accuracy: 68.1324%
+2025-10-26 21:41:16,612 - INFO - best accuracy: 68.1324% | best loss: 25.3217
+2025-10-26 21:41:16,613 - INFO - saved to model registry!
+2025-10-26 21:41:16,613 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:41:16,613 - INFO - --------------------------------------------------
+2025-10-26 21:41:16,613 - INFO - epoch 83 started
+2025-10-26 21:41:20,245 - INFO - training loss: 1.0294
+2025-10-26 21:41:20,756 - INFO - validation loss: 0.8460
+2025-10-26 21:41:20,756 - INFO - validation accuracy: 69.0127%
+2025-10-26 21:41:21,140 - INFO - best accuracy: 69.0127% | best loss: 24.5331
+2025-10-26 21:41:21,140 - INFO - saved to model registry!
+2025-10-26 21:41:21,140 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:41:21,140 - INFO - --------------------------------------------------
+2025-10-26 21:41:21,140 - INFO - epoch 84 started
+2025-10-26 21:41:24,757 - INFO - training loss: 1.0111
+2025-10-26 21:41:25,270 - INFO - validation loss: 0.8252
+2025-10-26 21:41:25,270 - INFO - validation accuracy: 69.7548%
+2025-10-26 21:41:25,439 - INFO - best accuracy: 69.7548% | best loss: 23.9301
+2025-10-26 21:41:25,440 - INFO - saved to model registry!
+2025-10-26 21:41:25,440 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:41:25,440 - INFO - --------------------------------------------------
+2025-10-26 21:41:25,440 - INFO - epoch 85 started
+2025-10-26 21:41:29,127 - INFO - training loss: 0.9858
+2025-10-26 21:41:29,641 - INFO - validation loss: 0.8024
+2025-10-26 21:41:29,641 - INFO - validation accuracy: 70.8103%
+2025-10-26 21:41:29,808 - INFO - best accuracy: 70.8103% | best loss: 23.2709
+2025-10-26 21:41:29,808 - INFO - saved to model registry!
+2025-10-26 21:41:29,808 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:41:29,808 - INFO - --------------------------------------------------
+2025-10-26 21:41:29,808 - INFO - epoch 86 started
+2025-10-26 21:41:33,346 - INFO - training loss: 0.9638
+2025-10-26 21:41:33,823 - INFO - validation loss: 0.7856
+2025-10-26 21:41:33,823 - INFO - validation accuracy: 71.2989%
+2025-10-26 21:41:34,011 - INFO - best accuracy: 71.2989% | best loss: 22.7831
+2025-10-26 21:41:34,012 - INFO - saved to model registry!
+2025-10-26 21:41:34,012 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:41:34,012 - INFO - --------------------------------------------------
+2025-10-26 21:41:34,012 - INFO - epoch 87 started
+2025-10-26 21:41:37,637 - INFO - training loss: 0.9588
+2025-10-26 21:41:38,136 - INFO - validation loss: 0.7779
+2025-10-26 21:41:38,137 - INFO - validation accuracy: 71.8934%
+2025-10-26 21:41:38,311 - INFO - best accuracy: 71.8934% | best loss: 22.5596
+2025-10-26 21:41:38,311 - INFO - saved to model registry!
+2025-10-26 21:41:38,311 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:41:38,311 - INFO - --------------------------------------------------
+2025-10-26 21:41:38,311 - INFO - epoch 88 started
+2025-10-26 21:41:41,923 - INFO - training loss: 0.9341
+2025-10-26 21:41:42,493 - INFO - validation loss: 0.7536
+2025-10-26 21:41:42,493 - INFO - validation accuracy: 72.9674%
+2025-10-26 21:41:42,805 - INFO - best accuracy: 72.9674% | best loss: 21.8540
+2025-10-26 21:41:42,805 - INFO - saved to model registry!
+2025-10-26 21:41:42,805 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:41:42,805 - INFO - --------------------------------------------------
+2025-10-26 21:41:42,805 - INFO - epoch 89 started
+2025-10-26 21:41:46,535 - INFO - training loss: 0.9183
+2025-10-26 21:41:47,026 - INFO - validation loss: 0.7321
+2025-10-26 21:41:47,026 - INFO - validation accuracy: 73.5619%
+2025-10-26 21:41:47,199 - INFO - best accuracy: 73.5619% | best loss: 21.2316
+2025-10-26 21:41:47,199 - INFO - saved to model registry!
+2025-10-26 21:41:47,200 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:41:47,200 - INFO - --------------------------------------------------
+2025-10-26 21:41:47,200 - INFO - epoch 90 started
+2025-10-26 21:41:50,805 - INFO - training loss: 0.9040
+2025-10-26 21:41:51,304 - INFO - validation loss: 0.7148
+2025-10-26 21:41:51,304 - INFO - validation accuracy: 74.2026%
+2025-10-26 21:41:51,477 - INFO - best accuracy: 74.2026% | best loss: 20.7278
+2025-10-26 21:41:51,477 - INFO - saved to model registry!
+2025-10-26 21:41:51,477 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:41:51,477 - INFO - --------------------------------------------------
+2025-10-26 21:41:51,477 - INFO - epoch 91 started
+2025-10-26 21:41:55,191 - INFO - training loss: 0.8949
+2025-10-26 21:41:55,795 - INFO - validation loss: 0.7077
+2025-10-26 21:41:55,795 - INFO - validation accuracy: 74.7926%
+2025-10-26 21:41:56,042 - INFO - best accuracy: 74.7926% | best loss: 20.5228
+2025-10-26 21:41:56,043 - INFO - saved to model registry!
+2025-10-26 21:41:56,043 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:41:56,043 - INFO - --------------------------------------------------
+2025-10-26 21:41:56,043 - INFO - epoch 92 started
+2025-10-26 21:41:59,720 - INFO - training loss: 0.8719
+2025-10-26 21:42:00,193 - INFO - validation loss: 0.7088
+2025-10-26 21:42:00,193 - INFO - validation accuracy: 74.5621%
+2025-10-26 21:42:00,193 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:42:00,193 - INFO - --------------------------------------------------
+2025-10-26 21:42:00,193 - INFO - epoch 93 started
+2025-10-26 21:42:03,828 - INFO - training loss: 0.8640
+2025-10-26 21:42:04,341 - INFO - validation loss: 0.6939
+2025-10-26 21:42:04,341 - INFO - validation accuracy: 74.9355%
+2025-10-26 21:42:04,522 - INFO - best accuracy: 74.9355% | best loss: 20.1220
+2025-10-26 21:42:04,522 - INFO - saved to model registry!
+2025-10-26 21:42:04,522 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:42:04,522 - INFO - --------------------------------------------------
+2025-10-26 21:42:04,522 - INFO - epoch 94 started
+2025-10-26 21:42:08,172 - INFO - training loss: 0.8445
+2025-10-26 21:42:08,708 - INFO - validation loss: 0.6681
+2025-10-26 21:42:08,709 - INFO - validation accuracy: 76.2076%
+2025-10-26 21:42:08,905 - INFO - best accuracy: 76.2076% | best loss: 19.3761
+2025-10-26 21:42:08,905 - INFO - saved to model registry!
+2025-10-26 21:42:08,905 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:42:08,905 - INFO - --------------------------------------------------
+2025-10-26 21:42:08,905 - INFO - epoch 95 started
+2025-10-26 21:42:12,583 - INFO - training loss: 0.8344
+2025-10-26 21:42:13,172 - INFO - validation loss: 0.6646
+2025-10-26 21:42:13,172 - INFO - validation accuracy: 76.3551%
+2025-10-26 21:42:13,637 - INFO - best accuracy: 76.3551% | best loss: 19.2745
+2025-10-26 21:42:13,637 - INFO - saved to model registry!
+2025-10-26 21:42:13,637 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:42:13,637 - INFO - --------------------------------------------------
+2025-10-26 21:42:13,638 - INFO - epoch 96 started
+2025-10-26 21:42:17,317 - INFO - training loss: 0.8222
+2025-10-26 21:42:17,869 - INFO - validation loss: 0.6628
+2025-10-26 21:42:17,869 - INFO - validation accuracy: 76.3689%
+2025-10-26 21:42:18,117 - INFO - best accuracy: 76.3689% | best loss: 19.2199
+2025-10-26 21:42:18,118 - INFO - saved to model registry!
+2025-10-26 21:42:18,118 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:42:18,118 - INFO - --------------------------------------------------
+2025-10-26 21:42:18,118 - INFO - epoch 97 started
+2025-10-26 21:42:21,772 - INFO - training loss: 0.8083
+2025-10-26 21:42:22,290 - INFO - validation loss: 0.6455
+2025-10-26 21:42:22,291 - INFO - validation accuracy: 77.1386%
+2025-10-26 21:42:22,534 - INFO - best accuracy: 77.1386% | best loss: 18.7207
+2025-10-26 21:42:22,535 - INFO - saved to model registry!
+2025-10-26 21:42:22,535 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:42:22,535 - INFO - --------------------------------------------------
+2025-10-26 21:42:22,535 - INFO - epoch 98 started
+2025-10-26 21:42:26,017 - INFO - training loss: 0.7893
+2025-10-26 21:42:26,542 - INFO - validation loss: 0.6283
+2025-10-26 21:42:26,542 - INFO - validation accuracy: 77.5673%
+2025-10-26 21:42:26,855 - INFO - best accuracy: 77.5673% | best loss: 18.2219
+2025-10-26 21:42:26,855 - INFO - saved to model registry!
+2025-10-26 21:42:26,855 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:42:26,855 - INFO - --------------------------------------------------
+2025-10-26 21:42:26,855 - INFO - epoch 99 started
+2025-10-26 21:42:30,506 - INFO - training loss: 0.7839
+2025-10-26 21:42:31,036 - INFO - validation loss: 0.6091
+2025-10-26 21:42:31,036 - INFO - validation accuracy: 78.4154%
+2025-10-26 21:42:31,212 - INFO - best accuracy: 78.4154% | best loss: 17.6629
+2025-10-26 21:42:31,212 - INFO - saved to model registry!
+2025-10-26 21:42:31,212 - INFO - TOTAL EPOCHS: 100
+2025-10-26 21:42:31,212 - INFO - --------------------------------------------------
+2025-10-26 21:42:31,212 - INFO - epoch 100 started
+2025-10-26 21:42:34,883 - INFO - training loss: 0.7721
+2025-10-26 21:42:35,393 - INFO - validation loss: 0.6180
+2025-10-26 21:42:35,393 - INFO - validation accuracy: 78.0835%
